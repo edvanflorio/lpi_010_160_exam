@@ -1138,12 +1138,12 @@
       "The numerical user ID",
       "The username",
       "The encrypted password",
-      "The user\\s default shell"
+      "The user\u2019s default shell"
     ],
     "answer": [
       "The numerical user ID",
       "The username",
-      "The user\\s default shell"
+      "The user\u2019s default shell"
     ]
   }
 ]
