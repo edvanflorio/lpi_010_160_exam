@@ -36,12 +36,12 @@ source <(curl -Ls "https://raw.githubusercontent.com/Noam-Alum/utils.sh/main/uti
 function fail {
   local ERR_CODE ERR_MSG
 
-	test -z "$1" && ERR_CODE="4" || ERR_CODE="$1"
-	test -z "$2" && ERR_MSG=":\nNo error specified." || ERR_MSG="$2"
+	if [ -z "$1" ]; then ERR_CODE="4"; else ERR_CODE="$1"; fi
+	if [ -z "$2" ]; then ERR_MSG=":\nNo error specified.";else ERR_MSG="$2"; fi
 	xecho "$FAIL_BULLET <biw>$ERR_MSG</biw>\n" >&2
 
   # Exit even if a fork is calling fail
-  if [ $BASH_SUBSHELL -gt 0 ]; then
+  if [ "$BASH_SUBSHELL" -gt 0 ]; then
     xecho "$FAIL_BULLET <biw>$ERR_MSG, Exit code should be:</biw> <on_ib><biw>$ERR_CODE</biw></on_ib>\n" >&2
     pkill --signal 9 -f "$(basename "$0")"
   fi
@@ -71,10 +71,10 @@ function get_random_function_id {
   if [ -z "$1" ]; then fail 1 "No max number given for ${FUNCNAME[0]} !"; else MAX="$1";fi
   MAX_TTL=100
 
-  while [ -z "$RES" ] && [ $MAX_TTL -lt 150 ]
+  while [ -z "$RES" ] && [ "$MAX_TTL" -lt 150 ]
   do
-    GEN_RANDOM_RESPONSE=$(gen_random int "$(wc -c <<< "$MAX")" | sed 's/^0*//')
-    if ! array_contains "$GEN_RANDOM_RESPONSE" "${ASKED_QUESTIONS[@]}" && [[ $GEN_RANDOM_RESPONSE -le $MAX ]]; then
+    GEN_RANDOM_RESPONSE="$(gen_random int "$(wc -c <<< "$MAX")" | sed 's/^0*//')"
+    if ! array_contains "$GEN_RANDOM_RESPONSE" "${ASKED_QUESTIONS[@]}" && [[ "$GEN_RANDOM_RESPONSE" -le "$MAX" ]]; then
       RES="$GEN_RANDOM_RESPONSE"
     fi
     (( MAX_TTL-- ))
@@ -114,15 +114,15 @@ trap 'xecho "\n\n<on_ib><biw>CTRL+C</biw></on_ib> <biw>pressed!</biw>\n\n\n<biw>
 LPI_CORRECT_ANSWERS=0
 xecho "\n\n<biw>LPI practice exam:\n{{ BR-bear }}</biw>\n"
 
-TOTAL_QUESTIONS=$(( $(jq -r .[-1].id <<< "$LPI_QUESTIONS_DATA") - 1 ))
+TOTAL_QUESTIONS="$(( $(jq -r .[-1].id <<< "$LPI_QUESTIONS_DATA") - 1 ))"
 readonly TOTAL_QUESTIONS
 
 ASKED_QUESTIONS=()
 
-while [ ${#ASKED_QUESTIONS[@]} -ne $TOTAL_QUESTIONS ]
+while [ "${#ASKED_QUESTIONS[@]}" -ne "$TOTAL_QUESTIONS" ]
 do
   LPI_GOT_ALL_RIGHT=false
-  QUESTION_INDEX=$(get_random_function_id $TOTAL_QUESTIONS)
+  QUESTION_INDEX=$(get_random_function_id "$TOTAL_QUESTIONS")
 
   ASKED_QUESTIONS+=("$(jq -r .["$QUESTION_INDEX"].id <<< "$LPI_QUESTIONS_DATA")")
 
