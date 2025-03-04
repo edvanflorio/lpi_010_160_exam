@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "question": "What are the differences between hard disk drives and solid state disks? (Choose two.)",
+    "options": [
+      "Hard disks can fail due to physical damage, while solid state disks cannot fail.",
+      "Solid state disks can store many times as much data as hard disk drives.",
+      "/dev/sda is a hard disk device while /dev/ssda is a solid state disk.",
+      "Solid state disks provide faster access to stored data than hard disks.",
+      "Hard disks have a motor and moving parts, solid state disks do not."
+    ],
+    "answer": [
+      "Hard disks have a motor and moving parts, solid state disks do not.",
+      "Solid state disks provide faster access to stored data than hard disks."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Members of a team already have experience using Red Hat Enterprise Linux. For a small hobby project, the team wants to set up a Linux server without paying for a subscription. Which of the following Linux distributions allows the team members to apply as much of their Red Hat Enterprise Linux knowledge as possible?",
+    "options": [
+      "CentOS",
+      "Debian GNU/Linux",
+      "Ubuntu Linux LTS",
+      "openSUSE",
+      "Raspbian"
+    ],
+    "answer": [
+      "CentOS"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Reverse DNS assigns hostnames to IP addresses. How is the name of the IP address 198.51.100.165 stored on a DNS server?",
+    "options": [
+      "In the A record for 165.100.51.198.ipv4.arpa.",
+      "In the REV record for arpa.in-addr.198.51.100.165.",
+      "In the RNAME record for 198-51-100-165.rev.arpa.",
+      "In the ARPA record for 165.100.51.198.rev.",
+      "In the PTR record for 165.100.51.198.in-addr.arpa."
+    ],
+    "answer": [
+      "In the PTR record for 165.100.51.198.in-addr.arpa."
+    ]
+  }
+]
