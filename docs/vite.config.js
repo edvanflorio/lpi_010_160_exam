@@ -11,5 +11,5 @@ export default defineConfig({
       plugins: [tailwindcss, autoprefixer],
     },
   },
-  base: '/Lpi_010_160_exam/',
+  base: '/lpi_010_160_exam/',
 });
