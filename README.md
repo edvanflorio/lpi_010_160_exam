@@ -16,6 +16,10 @@ You can take the exam online [here](https://noam-alum.github.io/lpi_010_160_exam
 
 ![Online test](https://noam-alum.github.io/lpi_010_160_exam/hero.webp)
 
+With extensive results:
+
+![results-page](https://noam-alum.github.io/lpi_010_160_exam/results-page.png)
+
 # Installation
 
 ## Linux:
