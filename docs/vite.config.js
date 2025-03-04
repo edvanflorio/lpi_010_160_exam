@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 
+// Exporting the Vite config with GitHub Pages setup
 export default defineConfig({
   plugins: [react()],
   css: {
@@ -10,4 +11,5 @@ export default defineConfig({
       plugins: [tailwindcss, autoprefixer],
     },
   },
+  base: '/Lpi_010_160_exam/',
 });
