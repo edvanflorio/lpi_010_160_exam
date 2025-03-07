@@ -1,3 +1,5 @@
+[![](https://img.shields.io/github/sponsors/Noam-Alum?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/Noam-Alum)
+
 # LPI 010-160 practice exam
 
 The Linux Essentials certificate validates a demonstrated understanding of the following: FOSS, the various communities, and licenses. Knowledge of open source applications in the workplace as they relate to closed source equivalents.
@@ -19,6 +21,10 @@ You can take the exam online [here](https://noam-alum.github.io/lpi_010_160_exam
 With extensive results:
 
 ![results-page](https://noam-alum.github.io/lpi_010_160_exam/results-page.png)
+
+>[!NOTE]
+> ### If this helped you, consider [sponsering](https://github.com/sponsors/Noam-Alum) this repository 😁.
+
 
 # Installation
 
