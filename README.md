@@ -22,6 +22,15 @@ With extensive results:
 
 ![results-page](https://noam-alum.github.io/lpi_010_160_exam/results-page.png)
 
+**This includes:**
+
+- Random question order.
+- Random answer choices order.
+- Full fleged feedback at the end of the exam.
+
+> Feel free to submit a [feature request](https://github.com/Noam-Alum/lpi_010_160_exam/issues/new?template=feature_request.md).
+
+
 >[!NOTE]
 > ### If this helped you, consider [sponsering](https://github.com/sponsors/Noam-Alum) this repository 😁.
 
