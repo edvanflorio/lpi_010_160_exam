@@ -639,7 +639,6 @@
     "question": "What can be found in the /proc/ directory?",
     "options": [
       "One directory per installed program.",
-      "One directory per installed program.",
       "One file per existing user account.",
       "One directory per running process.",
       "One log file per running service."
