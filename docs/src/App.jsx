@@ -17,16 +17,22 @@ const App = () => {
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
     const [wrongAnswers, setWrongAnswers] = useState([]);
 
+    // Helper to shuffle arrays
+    const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
+
     useEffect(() => {
         fetch("https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/lpi_questions.json")
             .then((res) => res.json())
             .then((data) => {
-                setQuestions(shuffleArray(data));
+                // Shuffle questions and their options
+                const shuffledData = shuffleArray(data).map((q) => ({
+                    ...q,
+                    options: shuffleArray(q.options),
+                }));
+                setQuestions(shuffledData);
                 setLoading(false);
             });
     }, []);
-
-    const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
     const handleSelectAnswer = (event) => {
         const answer = event.target.value;
@@ -93,7 +99,6 @@ const App = () => {
                     You answered {correctAnswersCount} out of {totalQuestions} questions correctly.
                 </p>
 
-                {/* Pie Chart */}
                 <div className="w-64 mx-auto mt-6">
                     <Pie
                         data={{
@@ -108,7 +113,6 @@ const App = () => {
                     />
                 </div>
 
-                {/* Review Incorrect Answers */}
                 {wrongAnswers.length > 0 && (
                     <div className="mt-8 text-left">
                         <h2 className="text-xl font-bold mb-2">Review Incorrect Answers</h2>
@@ -122,13 +126,13 @@ const App = () => {
                                 <h3 className="text-lg font-semibold">{wrong.question}</h3>
                                 <ul className="mt-2 space-y-1">
                                     {wrong.options.map((option, idx) => {
-                                        let bgColor = "bg-gray-700"; // Default
+                                        let bgColor = "bg-gray-700";
                                         if (wrong.selectedAnswers.includes(option) && wrong.correctAnswers.includes(option)) {
-                                            bgColor = "bg-blue-500"; // Partially correct
+                                            bgColor = "bg-blue-500";
                                         } else if (wrong.selectedAnswers.includes(option)) {
-                                            bgColor = "bg-red-500"; // Incorrect
+                                            bgColor = "bg-red-500";
                                         } else if (wrong.correctAnswers.includes(option)) {
-                                            bgColor = "bg-green-500"; // Correct
+                                            bgColor = "bg-green-500";
                                         }
                                         return (
                                             <li key={idx} className={`p-2 rounded ${bgColor}`}>
@@ -144,9 +148,7 @@ const App = () => {
 
                 <button
                     className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700"
-                    onClick={() => {
-                        window.location.reload(); // This will refresh the page
-                    }}
+                    onClick={() => window.location.reload()}
                 >
                     Retry Exam
                 </button>
@@ -203,7 +205,6 @@ const App = () => {
                     </button>
                 </div>
 
-                {/* Popup Modal */}
                 {showResult && (
                     <Dialog open={showResult} onClose={() => setShowResult(false)} className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
                         <div className="bg-white text-black p-6 rounded-lg shadow-lg">
