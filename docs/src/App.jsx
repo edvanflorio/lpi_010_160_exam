@@ -95,6 +95,21 @@ const App = () => {
         return (
             <div className="text-center p-6">
                 <h1 className="text-3xl font-bold">Exam Completed</h1>
+                <div className="mt-10 p-6 bg-yellow-100 text-black rounded-lg shadow-lg max-w-xl mx-auto">
+                    <h2 className="text-2xl font-bold mb-2">Support This Project ❤️</h2>
+                    <p className="mb-3">
+                        This exam simulator is maintained by one person, if it helped you prepare, please consider
+                        <a href="https://github.com/sponsors/Noam-Alum" className="underline font-semibold hover:text-purple-700"> sponsoring the developer </a> 
+                        to keep it growing!
+                    </p>
+                    <p className="mb-1">
+                        Found a bug or have a suggestion? Open an issue on
+                        <a href="https://github.com/Noam-Alum/lpi_010_160_exam/issues" className="underline font-semibold hover:text-blue-700"> GitHub</a>.
+                    </p>
+                    <br></br>
+                    I hope you do well on the actual exam 🙃, please let me know at: <a href="mailto:nnoam.alum@gmail.com" className="underline font-semibold hover:text-blue-700">nnoam.alum@gmail.com</a>
+                </div>
+                <br></br>
                 <p className="text-lg mt-2">
                     You answered {correctAnswersCount} out of {totalQuestions} questions correctly.
                 </p>
@@ -163,8 +178,8 @@ const App = () => {
 
     return (
         <div className="flex flex-col items-center min-h-screen bg-gray-900 text-white p-6">
-            <h1 className="text-4xl font-bold mb-6">LPI Practice Exam</h1>
-            <p className="text-4s font-bold mb-6">By Noam Alum</p>
+            <h1 className="text-4xl font-bold mb-6"><a href="https://github.com/Noam-Alum/lpi_010_160_exam/">LPI Practice Exam</a></h1>
+            <p className="text-4s font-bold mb-6">Made with ❤️</p>
             <div className="max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg">
                 <h2 className="text-xl font-semibold mb-4">{currentQuestion.question}</h2>
                 <p className="mb-2 text-sm text-gray-400">
@@ -235,6 +250,10 @@ const App = () => {
                         </div>
                     </Dialog>
                 )}
+            </div>
+            <br></br><br></br>
+            <div className="mb-6 text-sm bg-yellow-500 text-black px-4 py-2 rounded shadow-lg">
+                Enjoying this tool? <a href="https://github.com/sponsors/Noam-Alum" className="underline font-semibold hover:text-white">Consider sponsoring the project</a>. ❤️
             </div>
         </div>
     );

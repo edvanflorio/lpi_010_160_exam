@@ -19,8 +19,17 @@ LPI_BANNER="<bic>
     ██║     ██╔═══╝ ██║    ██╔══╝   ██╔██╗ ██╔══██║██║╚██╔╝██║
     ███████╗██║     ██║    ███████╗██╔╝ ██╗██║  ██║██║ ╚═╝ ██║
     ╚══════╝╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
+</bic>
 
-</bic>"
+<biw>
+   ┌────────────────────────────────────────────────────────────────────────────────┐
+   │  Consider sponsoring the project here: </biw><bibl>https://github.com/sponsors/Noam-Alum</bibl><biw>   │
+   │                                                                                │
+   │                 Thank you, I hope you do well on the exam! </biw><bir>❤️</bir><biw>                   │
+   └────────────────────────────────────────────────────────────────────────────────┘
+
+</biw>
+"
 SUCCESS_BULLET=" <big>{{ B-arrow }}</big>"
 FAIL_BULLET=" <bir>{{ B-arrow }}</bir>"
 INFO_BULLET=" <biw>{{ B-arrow }}</biw>"
