@@ -75,21 +75,22 @@ function array_contains {
 }
 
 function get_random_function_id {
-  local MAX_TTL RES GEN_RANDOM_RESPONSE MAX
+  local MAX_TTL RES GEN_RANDOM_RESPONSE MAX ITERATION_COUNT
 
   if [ -z "$1" ]; then fail 1 "No max number given for ${FUNCNAME[0]} !"; else MAX="$1";fi
-  MAX_TTL=100
+  MAX_TTL=15
+  ITERATION_COUNT=0
 
-  while [ -z "$RES" ] && [ "$MAX_TTL" -lt 150 ]
+  while [ -z "$RES" ] && [ "$ITERATION_COUNT" -lt "$MAX_TTL" ]
   do
-    GEN_RANDOM_RESPONSE="$(gen_random int "$(wc -c <<< "$MAX")" | sed 's/^0*//')"
-    if ! array_contains "$GEN_RANDOM_RESPONSE" "${ASKED_QUESTIONS[@]}" && [[ "$GEN_RANDOM_RESPONSE" -le "$MAX" ]]; then
+    GEN_RANDOM_RESPONSE="$(( RANDOM % $(( MAX + 1 )) ))"
+    if ! array_contains "$(( $GEN_RANDOM_RESPONSE + 1 ))" "${ASKED_QUESTIONS[@]}" && [[ "$GEN_RANDOM_RESPONSE" -le "$MAX" ]]; then
       RES="$GEN_RANDOM_RESPONSE"
     fi
-    (( MAX_TTL-- ))
+    (( ITERATION_COUNT++ ))
   done
 
-  echo "$RES"
+  echo "${RES:-0}"
 }
 
 # | Set environment
@@ -128,15 +129,18 @@ readonly TOTAL_QUESTIONS
 
 ASKED_QUESTIONS=()
 
-while [ "${#ASKED_QUESTIONS[@]}" -ne "$TOTAL_QUESTIONS" ]
+while [ "${#ASKED_QUESTIONS[@]}" -le "$TOTAL_QUESTIONS" ]
 do
-  LPI_GOT_ALL_RIGHT=false
   QUESTION_INDEX=$(get_random_function_id "$TOTAL_QUESTIONS")
+  QUESTION_ID="$(jq -r .["$QUESTION_INDEX"].id <<< "$LPI_QUESTIONS_DATA")"
+  if array_contains "$QUESTION_ID" "${ASKED_QUESTIONS[@]}"; then
+    continue
+  else
+    ASKED_QUESTIONS+=("$QUESTION_ID")
+  fi
 
-  ASKED_QUESTIONS+=("$(jq -r .["$QUESTION_INDEX"].id <<< "$LPI_QUESTIONS_DATA")")
-
+  LPI_GOT_ALL_RIGHT=false
   LPI_QUESTION="$(jq -r .["$QUESTION_INDEX"].question <<< "$LPI_QUESTIONS_DATA")"
-
   LPI_ANSWERS=()
   while IFS='' read -r line; do LPI_ANSWERS+=("$line"); done < <(jq -r ".[$QUESTION_INDEX].answer[]" <<< "$LPI_QUESTIONS_DATA")
 
@@ -176,4 +180,11 @@ do
   unset LPI_USER_ANSWER
 done
 
-xecho "\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( TOTAL_QUESTIONS + 1 ))</biw></on_ib>\n"
+xecho "\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( TOTAL_QUESTIONS + 1 )))</biw></on_ib>\n"
+
+# Notify - Just for statistics
+curl -sS -o /dev/null\
+     --max-time 2\
+     --retry 0\
+     --connect-timeout 1\
+     "https://notice.alum.sh/LPI-CLI-EXAM-${LPI_CORRECT_ANSWERS}" &> /dev/null || :

@@ -81,6 +81,17 @@ const App = () => {
             setIsCorrect(null);
         } else {
             setTestComplete(true);
+
+            // Just for statistics
+            try {
+                fetch(`https://notice.alum.sh/LPI-WEB-EXAM-${correctAnswersCount}`, {
+                    method: "GET",
+                    mode: "no-cors",
+                    keepalive: true,
+                });
+            } catch (e) {
+                // Silently ignore any errors
+            }
         }
     };
 
