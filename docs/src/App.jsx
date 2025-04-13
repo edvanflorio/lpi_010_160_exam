@@ -222,7 +222,7 @@ const App = () => {
                         onClick={handleSubmitAnswer}
                         className={`px-4 py-2 rounded-md transition-transform duration-300 ${
                             canSubmit
-                                ? "bg-green-500 text-white hover:bg-green-700 active:scale-90"
+                                ? "bg-green-500 text-white hover:bg-green-700 active:opacity-70"
                                 : "bg-gray-500 text-gray-300 cursor-not-allowed"
                         }`}
                         disabled={!canSubmit}
@@ -255,7 +255,7 @@ const App = () => {
                                     </p>
                                 </div>
                             )}
-                            <button onClick={handleNextQuestion} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+                            <button onClick={handleNextQuestion} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 active:opacity-70">
                                 Next Question
                             </button>
                         </div>
