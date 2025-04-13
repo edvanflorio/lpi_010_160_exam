@@ -184,6 +184,7 @@ const App = () => {
 
     const currentQuestion = questions[currentQuestionIndex];
     const isMultipleChoice = currentQuestion.answer.length > 1;
+    const isFillInBlank = currentQuestion.options.length === 1;
     const requiredSelections = currentQuestion.answer.length;
     const canSubmit = selectedAnswers.length === requiredSelections;
 
@@ -194,10 +195,18 @@ const App = () => {
             <div className="max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg">
                 <h2 className="text-xl font-semibold mb-4">{currentQuestion.question}</h2>
                 <p className="mb-2 text-sm text-gray-400">
-                    {isMultipleChoice ? `Select ${requiredSelections} answers.` : "Select one answer."}
+                    {isMultipleChoice ? `Select ${requiredSelections} answers.` : isFillInBlank ? "Type the answer." : "Select one answer."}
                 </p>
                 <div className="space-y-2">
-                    {currentQuestion.options.map((option, idx) => (
+                    {isFillInBlank ? (
+                        <input
+                            type="text"
+                            value={selectedAnswers[0] || ""}
+                            onChange={handleSelectAnswer}
+                            className="bg-gray-700 p-2 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        />
+                    ) : (
+                    currentQuestion.options.map((option, idx) => (
                         <label
                             key={idx}
                             className={`flex items-center space-x-2 bg-gray-700 p-2 rounded-md cursor-pointer ${
@@ -214,7 +223,7 @@ const App = () => {
                             />
                             <span>{option}</span>
                         </label>
-                    ))}
+                    )))}
                 </div>
 
                 <div className="mt-4 flex justify-between">
