@@ -21,7 +21,13 @@ const App = () => {
     const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
     useEffect(() => {
-        fetch("https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/lpi_questions.json")
+        let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
+        
+        window.location.href.includes("/lpi_010_160_exam/practice") ?
+            fetchUrl += "lpi_exercise_questions.json" :
+            fetchUrl += "lpi_questions.json";
+
+        fetch(fetchUrl)
             .then((res) => res.json())
             .then((data) => {
                 // Shuffle questions and their options
