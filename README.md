@@ -22,8 +22,6 @@ With extensive results:
 
 ![results-page](https://noam-alum.github.io/lpi_010_160_exam/results-page.png)
 
-Or even an *extended* exam for folks who want to learn more 😉, by adding `extended` to the exam url, or by clicking [here](https://noam-alum.github.io/lpi_010_160_exam/extended).
-
 **This includes:**
 
 - Random question order.
@@ -123,7 +121,6 @@ Huge thanks for contributing to this project — I really appreciate it!
 
 [ND-SR7](https://github.com/ND-SR7)
 
-- [Added the extended exam option](https://github.com/Noam-Alum/lpi_010_160_exam/pull/17)
 - [Implemented the fill-in-the-blank questions feature](https://github.com/Noam-Alum/lpi_010_160_exam/pull/16)
 - [Fixed a UI issue](https://github.com/Noam-Alum/lpi_010_160_exam/pull/15)
 - And for being the very first person to submit a PR 🙃
