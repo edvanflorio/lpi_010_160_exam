@@ -14,13 +14,15 @@ This bash script/[webpage](https://noam-alum.github.io/lpi_010_160_exam/) lets y
 
 # Take the exam online
 
-You can take the exam online [here](https://noam-alum.github.io/lpi_010_160_exam/).
+You can take the **EXACT** exam online [here](https://noam-alum.github.io/lpi_010_160_exam/).
 
 ![Online test](https://noam-alum.github.io/lpi_010_160_exam/hero.webp)
 
 With extensive results:
 
 ![results-page](https://noam-alum.github.io/lpi_010_160_exam/results-page.png)
+
+Or even an *extended* exam for folks who want to learn more 😉, by adding `extended` to the exam url, or by clicking [here](https://noam-alum.github.io/lpi_010_160_exam/extended).
 
 **This includes:**
 
@@ -32,8 +34,7 @@ With extensive results:
 
 
 >[!NOTE]
-> ### If this helped you, consider [sponsering](https://github.com/sponsors/Noam-Alum) this repository 😁.
-
+> ### If this helped you, consider [sponsoring](https://github.com/sponsors/Noam-Alum) this repository 😁.
 
 # Installation
 
@@ -116,6 +117,13 @@ LPI practice exam:
 ```
 
 ---
+## Contributors
 
->[!NOTE]
-> You can also try [jhardoin](https://github.com/jhardoin/)s [Anki deck](https://apps.ankiweb.net/) based on this repo [here](https://github.com/jhardoin/Linux-Essentials/).
+Huge thanks for contributing to this project — I really appreciate it!
+
+[ND-SR7](https://github.com/ND-SR7)
+
+- [Added the extended exam option](https://github.com/Noam-Alum/lpi_010_160_exam/pull/17)
+- [Implemented the fill-in-the-blank questions feature](https://github.com/Noam-Alum/lpi_010_160_exam/pull/16)
+- [Fixed a UI issue](https://github.com/Noam-Alum/lpi_010_160_exam/pull/15)
+- And for being the very first person to submit a PR 🙃

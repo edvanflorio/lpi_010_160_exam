@@ -23,7 +23,7 @@ const App = () => {
     useEffect(() => {
         let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
         
-        window.location.href.includes("/lpi_010_160_exam/practice") ?
+        window.location.href.includes("/lpi_010_160_exam/extended") ?
             fetchUrl += "lpi_exercise_questions.json" :
             fetchUrl += "lpi_questions.json";
 
