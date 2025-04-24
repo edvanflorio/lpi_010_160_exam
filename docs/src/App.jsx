@@ -22,7 +22,7 @@ const App = () => {
 
     useEffect(() => {
         let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
-        
+
         window.location.href.includes("/lpi_010_160_exam/extended") ?
             fetchUrl += "lpi_exercise_questions.json" :
             fetchUrl += "lpi_questions.json";
@@ -87,17 +87,6 @@ const App = () => {
             setIsCorrect(null);
         } else {
             setTestComplete(true);
-
-            // Just for statistics
-            try {
-                fetch(`https://notice.alum.sh/LPI-WEB-EXAM-${correctAnswersCount}`, {
-                    method: "GET",
-                    mode: "no-cors",
-                    keepalive: true,
-                });
-            } catch (e) {
-                // Silently ignore any errors
-            }
         }
     };
 
@@ -199,7 +188,10 @@ const App = () => {
             <h1 className="text-4xl font-bold mb-6"><a href="https://github.com/Noam-Alum/lpi_010_160_exam/">LPI Practice Exam</a></h1>
             <p className="text-4s font-bold mb-6">Made with ❤️</p>
             <div className="max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h2 className="text-xl font-semibold mb-4">{currentQuestion.question}</h2>
+            <div className="flex justify-between items-center mb-4 text-sm text-gray-300">
+                <span>Question {currentQuestionIndex + 1} of {questions.length}</span>
+            </div>
+            <h2 className="text-xl font-semibold mb-2">{currentQuestion.question}</h2>
                 <p className="mb-2 text-sm text-gray-400">
                     {isMultipleChoice ? `Select ${requiredSelections} answers.` : isFillInBlank ? "Type the answer." : "Select one answer."}
                 </p>

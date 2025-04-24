@@ -181,10 +181,3 @@ do
 done
 
 xecho "\n\n<biw>{{ BR-bear }}\n\nResults:</biw> <on_ib><biw> ($LPI_CORRECT_ANSWERS/$(( TOTAL_QUESTIONS + 1 )))</biw></on_ib>\n"
-
-# Notify - Just for statistics
-curl -sS -o /dev/null\
-     --max-time 2\
-     --retry 0\
-     --connect-timeout 1\
-     "https://notice.alum.sh/LPI-CLI-EXAM-${LPI_CORRECT_ANSWERS}" &> /dev/null || :
