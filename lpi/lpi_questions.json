@@ -5,7 +5,7 @@
     "options": [
       "Hard disks can fail due to physical damage, while solid state disks cannot fail.",
       "Solid state disks can store many times as much data as hard disk drives.",
-      "/dev/sda is a hard disk device while /dev/ssda is a solid state disk.",
+      "`/dev/sda` is a hard disk device while `/dev/ssda` is a solid state disk.",
       "Solid state disks provide faster access to stored data than hard disks.",
       "Hard disks have a motor and moving parts, solid state disks do not."
     ],
@@ -60,14 +60,14 @@
     "id": 5,
     "question": "Which of the following commands can be used to resolve a DNS name to an IP address?",
     "options": [
-      "dnsname",
-      "query",
-      "dns",
-      "iplookup",
-      "host"
+      "`dnsname`",
+      "`query`",
+      "`dns`",
+      "`iplookup`",
+      "`host`"
     ],
     "answer": [
-      "host"
+      "`host`"
     ]
   },
   {
@@ -88,14 +88,14 @@
     "id": 7,
     "question": "Which of the following outputs comes from the command free?",
     "options": [
-      "A. 21:04 up 14 dats, 7:43, 3 users, load average: 0.89, 1.00, 0.99",
-      "avg-cpu:  %user   %nice %system %iowait  %steal   %idle\n16.36    0.00    2.99    1.06    0.00   79.59",
-      "Filesystem      Size  Used Avail Use% Mounted on \n/dev/nvme0n1p2  468G   33G  412G   8% /",
-      "120K  /tmp",
-      "total        used        free      shared  buff/cache   available\nMem:            15Gi       2.3Gi         9Gi       910Mi       3.0Gi        11Gi\nSwap:          2.0Gi          0B       2.0Gi"
+      "`21:04 up 14 dats, 7:43, 3 users, load average: 0.89, 1.00, 0.99`",
+      "`avg-cpu:  %user   %nice %system %iowait  %steal   %idle\n16.36    0.00    2.99    1.06    0.00   79.59`",
+      "`Filesystem      Size  Used Avail Use% Mounted on \n/dev/nvme0n1p2  468G   33G  412G   8% /`",
+      "`120K  /tmp`",
+      "`total        used        free      shared  buff/cache   available\nMem:            15Gi       2.3Gi         9Gi       910Mi       3.0Gi        11Gi\nSwap:          2.0Gi          0B       2.0Gi`"
     ],
     "answer": [
-      "total        used        free      shared  buff/cache   available\nMem:            15Gi       2.3Gi         9Gi       910Mi       3.0Gi        11Gi\nSwap:          2.0Gi          0B       2.0Gi"
+      "`total        used        free      shared  buff/cache   available\nMem:            15Gi       2.3Gi         9Gi       910Mi       3.0Gi        11Gi\nSwap:          2.0Gi          0B       2.0Gi`"
     ]
   },
   {
@@ -118,13 +118,13 @@
     "question": "Which of the following outputs could stem from the command last?",
     "options": [
       "1 ls\n 2 cat text.txt\n 3 logout",
-      "Password for user last changed at Sat Mar 31 16:38:57 EST 2018",
-      "Last login: Fri Mar 23 10:56:39 2018 from server.example.com",
-      "EXT4-fs(dm7): mountes filesystem with ordered data mode. Opts: (null)",
-      "root tty2 Wed May 17 21:11 - 21:11 (00:00)"
+      "`Password for user last changed at Sat Mar 31 16:38:57 EST 2018`",
+      "`Last login: Fri Mar 23 10:56:39 2018 from server.example.com`",
+      "`EXT4-fs(dm7): mountes filesystem with ordered data mode. Opts: (null)`",
+      "`root tty2 Wed May 17 21:11 - 21:11 (00:00)`"
     ],
     "answer": [
-      "root tty2 Wed May 17 21:11 - 21:11 (00:00)"
+      "`root tty2 Wed May 17 21:11 - 21:11 (00:00)`"
     ]
   },
   {
@@ -173,15 +173,15 @@
     "id": 13,
     "question": "Which of the following tar options handle compression? (Choose two.)",
     "options": [
-      "-z",
-      "-g",
-      "-z2",
-      "-bz",
-      "-j"
+      "`-z`",
+      "`-g`",
+      "`-z2`",
+      "`-bz`",
+      "`-j`"
     ],
     "answer": [
-      "-z",
-      "-j"
+      "`-z`",
+      "`-j`"
     ]
   },
   {
@@ -218,96 +218,96 @@
     "id": 16,
     "question": "Which command adds the new user tux and creates the user\u2019s home directory with default configuration files?",
     "options": [
-      "useradd \u2013m tux",
-      "defaultuser tux",
-      "useradd \u2013o default tux",
-      "passwd \u2013a tux",
-      "usercreate tux"
+      "`useradd \u2013m tux`",
+      "`defaultuser tux`",
+      "`useradd \u2013o default tux`",
+      "`passwd \u2013a tux`",
+      "`usercreate tux`"
     ],
     "answer": [
-      "useradd \u2013m tux"
+      "`useradd \u2013m tux`"
     ]
   },
   {
     "id": 17,
     "question": "Which of the following commands creates an archive file work.tar from the contents of the directory ./work/?",
     "options": [
-      "tar work > work.tar",
-      "tar work.tar < ./work/",
-      "tar --new work.tar ./work/",
-      "tar \u2013cf work.tar ./work/",
-      "tar \u2013create work.tgz \u2013content ./work/"
+      "`tar work > work.tar`",
+      "`tar work.tar < ./work/`",
+      "`tar --new work.tar ./work/`",
+      "`tar \u2013cf work.tar ./work/`",
+      "`tar \u2013create work.tgz \u2013content ./work/`"
     ],
     "answer": [
-      "tar \u2013cf work.tar ./work/"
+      "`tar \u2013cf work.tar ./work/`"
     ]
   },
   {
     "id": 18,
     "question": "The current directory contains the following file: -rwxr-xr-x 1 root root 859688 Feb 7 08:15 test.sh Given that the file is a valid shell script, how can this script be executed? (Choose two.)",
     "options": [
-      "bash test.sh",
-      "${test.sh}",
-      "cmd ./test.sh",
-      "./test.sh",
-      "run test.sh"
+      "`bash test.sh`",
+      "`${test.sh}`",
+      "`cmd ./test.sh`",
+      "`./test.sh`",
+      "`run test.sh`"
     ],
     "answer": [
-      "bash test.sh",
-      "./test.sh"
+      "`bash test.sh`",
+      "`./test.sh`"
     ]
   },
   {
     "id": 19,
     "question": "Which of the following keys can be pressed to exit less?",
     "options": [
-      "l",
-      "e",
-      "q",
-      "!",
-      "x"
+      "`l`",
+      "`e`",
+      "`q`",
+      "`!`",
+      "`x`"
     ],
     "answer": [
-      "q"
+      "`q`"
     ]
   },
   {
     "id": 20,
     "question": "What keyword is used in a shell script to begin a loop? (Specify one keyword only, without any additional information.)",
     "options": [
-      "for",
-      "forloop"
+      "`for`",
+      "`forloop`"
     ],
     "answer": [
-      "for"
+      "`for`"
     ]
   },
   {
     "id": 21,
     "question": "Which of the following commands will search for the file foo.txt under the directory /home?",
     "options": [
-      "find /home \u2013 file foo.txt",
-      "find /home \u2013name foo.txt",
-      "find /home foo.txt",
-      "search /home \u2013file foo.txt",
-      "search /home foo. txt"
+      "`find /home \u2013 file foo.txt`",
+      "`find /home \u2013name foo.txt`",
+      "`find /home foo.txt`",
+      "`search /home \u2013file foo.txt`",
+      "`search /home foo. txt`"
     ],
     "answer": [
-      "find /home \u2013name foo.txt"
+      "`find /home \u2013name foo.txt`"
     ]
   },
   {
     "id": 22,
     "question": "A directory contains the following files: a.txt and b.txt, What would be the output of the following shell script? for file in *.txt",
     "options": [
-      "a b",
-      "*.txt",
-      "c.cav",
-      "a.txt",
-      "a.txt b.txt"
+      "`a b`",
+      "`*.txt`",
+      "`c.cav`",
+      "`a.txt`",
+      "`a.txt b.txt`"
     ],
     "answer": [
-      "a.txt b.txt"
+      "`a.txt b.txt`"
     ]
   },
   {
@@ -328,14 +328,14 @@
     "id": 24,
     "question": "Which of the following commands sorts the output of the command export-logs?",
     "options": [
-      "export-logs < sort",
-      "export-logs & sort",
-      "export-logs <> sort",
-      "export-logs | sort",
-      "export-logs > sort"
+      "`export-logs < sort`",
+      "`export-logs & sort`",
+      "`export-logs <> sort`",
+      "`export-logs | sort`",
+      "`export-logs > sort`"
     ],
     "answer": [
-      "export-logs | sort"
+      "`export-logs | sort`"
     ]
   },
   {
@@ -384,28 +384,28 @@
     "id": 28,
     "question": "Which package management tool is used in Red Hat-based Linux Systems?",
     "options": [
-      "rpm",
-      "apt-get",
-      "dpkg",
-      "packagectl",
-      "portage"
+      "`rpm`",
+      "`apt-get`",
+      "`dpkg`",
+      "`packagectl`",
+      "`portage`"
     ],
     "answer": [
-      "rpm"
+      "`rpm`"
     ]
   },
   {
     "id": 29,
     "question": "Which of the following characters in a shell prompt indicates the shell is running with root privileges?",
     "options": [
-      "*",
-      "&",
-      "$",
-      "#",
-      "!"
+      "`*`",
+      "`&`",
+      "`$`",
+      "`#`",
+      "`!`"
     ],
     "answer": [
-      "#"
+      "`#`"
     ]
   },
   {
@@ -456,15 +456,15 @@
     "id": 33,
     "question": "Running the command rm Downloads leads to the following error: rm: cannot remove \u2018Downloads/\u2019: Is a directory Which of the following commands can be used instead to remove Downloads, assuming Downloads is empty? (Choose two.)",
     "options": [
-      "rmdir Downloads",
-      "rm \u2013r Downloads",
-      "rem Downloads",
-      "dir \u2013r Downloads",
-      "undir Downloads"
+      "`rmdir Downloads`",
+      "`rm \u2013r Downloads`",
+      "`rem Downloads`",
+      "`dir \u2013r Downloads`",
+      "`undir Downloads`"
     ],
     "answer": [
-      "rm \u2013r Downloads",
-      "rmdir Downloads"
+      "`rm \u2013r Downloads`",
+      "`rmdir Downloads`"
     ]
   },
   {
@@ -485,71 +485,71 @@
     "id": 35,
     "question": "Which of the following commands are used to get information on the proper use of ls? (Choose two.)",
     "options": [
-      "option ls",
-      "info ls",
-      "usage ls",
-      "manual ls",
-      "man ls"
+      "`option ls`",
+      "`info ls`",
+      "`usage ls`",
+      "`manual ls`",
+      "`man ls`"
     ],
     "answer": [
-      "man ls",
-      "info ls"
+      "`man ls`",
+      "`info ls`"
     ]
   },
   {
     "id": 36,
     "question": "Which of the following directories contains information, documentation and example configuration files for installed software packages?",
     "options": [
-      "/usr/share/doc/",
-      "/etc/defaults/",
-      "/var/info/",
-      "/usr/examples/",
-      "/doc/"
+      "`/usr/share/doc/`",
+      "`/etc/defaults/`",
+      "`/var/info/`",
+      "`/usr/examples/`",
+      "`/doc/`"
     ],
     "answer": [
-      "/usr/share/doc/"
+      "`/usr/share/doc/`"
     ]
   },
   {
     "id": 37,
     "question": "A user is currently in the directory /home/user/Downloads/ and runs the command ls ../Documents/ Assuming it exists, which directory\u2019s content is displayed?",
     "options": [
-      "/home/user/Documents/Downloads/",
-      "/home/user/Documents/",
-      "/home/user/Downloads/Documents/",
-      "/Documents/",
-      "/home/Documents"
+      "`/home/user/Documents/Downloads/`",
+      "`/home/user/Documents/`",
+      "`/home/user/Downloads/Documents/`",
+      "`/Documents/`",
+      "`/home/Documents`"
     ],
     "answer": [
-      "/home/user/Documents/"
+      "`/home/user/Documents/`"
     ]
   },
   {
     "id": 38,
     "question": "Which of the following commands adds the directory /new/dir/ to the PATH environment variable?",
     "options": [
-      "export PATH=/new/dir: PATH",
-      "PATH=/new/dir: PATH",
-      "export $PATH=/new/dir: $PATH",
-      "$PATH=/new/dir: $PATH",
-      "export PATH=/new/dir: $PATH"
+      "`export PATH=/new/dir: PATH`",
+      "`PATH=/new/dir: PATH`",
+      "`export $PATH=/new/dir: $PATH`",
+      "`$PATH=/new/dir: $PATH`",
+      "`export PATH=/new/dir: $PATH`"
     ],
     "answer": [
-      "export PATH=/new/dir: $PATH"
+      "`export PATH=/new/dir: $PATH`"
     ]
   },
   {
     "id": 39,
     "question": "A directory contains the following three files: texts 1.txt texts 2.txt texts 3.csv Which command copies the two files ending in .txt to the /tmp/ directory?",
     "options": [
-      "cp. \\.txt /tmp/",
-      "cp *.txt /tmp/",
-      "cp ?.txt /tmp/",
-      "cp ??.txt /tmp/",
-      "cp $?.txt /tmp/"
+      "`cp. \\.txt /tmp/`",
+      "`cp *.txt /tmp/`",
+      "`cp ?.txt /tmp/`",
+      "`cp ??.txt /tmp/`",
+      "`cp $?.txt /tmp/`"
     ],
     "answer": [
-      "cp *.txt /tmp/"
+      "`cp *.txt /tmp/`"
     ]
   },
   {
@@ -607,14 +607,14 @@
     "id": 44,
     "question": "Which of the following devices represents a hard disk partition?",
     "options": [
-      "/dev/ttyS0",
-      "/dev/sata0",
-      "/dev/part0",
-      "/dev/sda2",
-      "/dev/sda/p2"
+      "`/dev/ttyS0`",
+      "`/dev/sata0`",
+      "`/dev/part0`",
+      "`/dev/sda2`",
+      "`/dev/sda/p2`"
     ],
     "answer": [
-      "/dev/sda2"
+      "`/dev/sda2`"
     ]
   },
   {
@@ -663,28 +663,28 @@
     "id": 48,
     "question": "Which of the following directories must be mounted with read and write access if it resides on its own dedicated file system?",
     "options": [
-      "/opt",
-      "/lib",
-      "/etc",
-      "/var",
-      "/usr"
+      "`/opt`",
+      "`/lib`",
+      "`/etc`",
+      "`/var`",
+      "`/usr`"
     ],
     "answer": [
-      "/var"
+      "`/var`"
     ]
   },
   {
     "id": 49,
     "question": "The ownership of the file doku.odt should be changed. The new owner is named tux. Which command accomplishes this change?",
     "options": [
-      "chmod u=tux doku.odt",
-      "newuser doku.odt tux",
-      "chown tux doku.odt",
-      "transfer tux: doku.odt",
-      "passwd doku.odt:tux"
+      "`chmod u=tux doku.odt`",
+      "`newuser doku.odt tux`",
+      "`chown tux doku.odt`",
+      "`transfer tux: doku.odt`",
+      "`passwd doku.odt:tux`"
     ],
     "answer": [
-      "chown tux doku.odt"
+      "`chown tux doku.odt`"
     ]
   },
   {
@@ -735,15 +735,15 @@
     "id": 53,
     "question": "Which files are the source of the information in the following output? (Choose two.) uid=1000 (bob) gid=1000 (bob) groups=1000 (bob), 10\n(wheel), 150 (wireshark), 989 (docker), 1001 (libvirt)",
     "options": [
-      "/etc/id",
-      "/etc/passwd",
-      "/etc/group",
-      "/home/index",
-      "/var/db/users"
+      "`/etc/id`",
+      "`/etc/passwd`",
+      "`/etc/group`",
+      "`/home/index`",
+      "`/var/db/users`"
     ],
     "answer": [
-      "/etc/passwd",
-      "/etc/group"
+      "`/etc/passwd`",
+      "`/etc/group`"
     ]
   },
   {
@@ -801,43 +801,43 @@
     "id": 58,
     "question": "Which of the following commands shows the absolute path to the current working directory?",
     "options": [
-      "who",
-      "cd ..",
-      "pwd",
-      "ls -l",
-      "cd ~/home"
+      "`who`",
+      "`cd ..`",
+      "`pwd`",
+      "`ls -l`",
+      "`cd ~/home`"
     ],
     "answer": [
-      "pwd"
+      "`pwd`"
     ]
   },
   {
     "id": 59,
     "question": "Which of the following commands output the content of the file Texts 2.txt? (Choose two.)",
     "options": [
-      "cat 'Texts 2.txt'",
-      "cat -- Texts 2.txt",
-      "cat |Texts 2.txt|",
-      "cat 'Texts\\ 2.txt'",
-      "cat Texts\\ 2.txt"
+      "`cat 'Texts 2.txt'`",
+      "`cat -- Texts 2.txt`",
+      "`cat |Texts 2.txt|`",
+      "`cat 'Texts\\ 2.txt'`",
+      "`cat Texts\\ 2.txt`"
     ],
     "answer": [
-      "cat 'Texts 2.txt'",
-      "cat Texts\\ 2.txt"
+      "`cat 'Texts 2.txt'`",
+      "`cat Texts\\ 2.txt`"
     ]
   },
   {
     "id": 60,
     "question": "Which command displays file names only and no additional information?",
     "options": [
-      "ls -a",
-      "ls -lh",
-      "ls -l",
-      "ls -alh",
-      "ls -nl"
+      "`ls -a`",
+      "`ls -lh`",
+      "`ls -l`",
+      "`ls -alh`",
+      "`ls -nl`"
     ],
     "answer": [
-      "ls -a"
+      "`ls -a`"
     ]
   },
   {
@@ -858,14 +858,14 @@
     "id": 62,
     "question": "Which of the following commands sets the variable USERNAME to the value bob?",
     "options": [
-      "set USERNAME bob",
-      "$USERNAME==bob",
-      "var USERNAME=bob",
-      "USERNAME<=bob",
-      "USERNAME=bob"
+      "`set USERNAME bob`",
+      "`$USERNAME==bob`",
+      "`var USERNAME=bob`",
+      "`USERNAME<=bob`",
+      "`USERNAME=bob`"
     ],
     "answer": [
-      "USERNAME=bob"
+      "`USERNAME=bob`"
     ]
   },
   {
@@ -880,70 +880,70 @@
     "id": 64,
     "question": "Which command copies the contents of the directory /etc/, including all sub-directories, to /root/?",
     "options": [
-      "copy /etc /root",
-      "cp -r /etc/* /root",
-      "cp -v /etc/* /root",
-      "rcp /etc/* /root",
-      "cp -R /etc/*.* /root"
+      "`copy /etc /root`",
+      "`cp -r /etc/* /root`",
+      "`cp -v /etc/* /root`",
+      "`rcp /etc/* /root`",
+      "`cp -R /etc/*.* /root`"
     ],
     "answer": [
-      "cp -r /etc/* /root"
+      "`cp -r /etc/* /root`"
     ]
   },
   {
     "id": 65,
     "question": "Which of the following commands puts the lines of the file data.csv into alphabetical order?",
     "options": [
-      "a..z data.csv",
-      "sort data.csv",
-      "abc data.csv",
-      "wc -s data.csv",
-      "grep --sort data.csv"
+      "`a..z data.csv`",
+      "`sort data.csv`",
+      "`abc data.csv`",
+      "`wc -s data.csv`",
+      "`grep --sort data.csv`"
     ],
     "answer": [
-      "sort data.csv"
+      "`sort data.csv`"
     ]
   },
   {
     "id": 66,
     "question": "Which of the following examples shows the general structure of a for loop in a shell script?",
     "options": [
-      "for *.txt as file => echo $file",
-      "for *.txt ( echo $i )",
-      "for file in *.txt do echo $i done",
-      "for ls *.txt exec {} \\;",
-      "foreach @{file} { echo $i }"
+      "`for *.txt as file => echo $file`",
+      "`for *.txt ( echo $i )`",
+      "`for file in *.txt do echo $i done`",
+      "`for ls *.txt exec {} \\;`",
+      "`foreach @{file} { echo $i }`"
     ],
     "answer": [
-      "for file in *.txt do echo $i done"
+      "`for file in *.txt do echo $i done`"
     ]
   },
   {
     "id": 67,
     "question": "Which operator in a regular expression matches the preceding character either zero or one time?",
     "options": [
-      "?",
-      "*",
-      "+",
-      "%",
-      "$"
+      "`?`",
+      "`*`",
+      "`+`",
+      "`%`",
+      "`$`"
     ],
     "answer": [
-      "?"
+      "`?`"
     ]
   },
   {
     "id": 68,
     "question": "The file script.sh in the current directory contains the following content:\n#!/bin/bash\necho $MYVAR\nThe following commands are used to execute this script:\n\n\nMYVAR=value -\n./script.sh\nThe result is an empty line instead of the content of the variable MYVAR. How should MYVAR be set in order to make script.sh display the content\nof MYVAR?",
     "options": [
-      "!MYVAR=value",
-      "env MYVAR=value",
-      "MYVAR=value",
-      "$MYVAR=value",
-      "export MYVAR=value"
+      "`!MYVAR=value`",
+      "`env MYVAR=value`",
+      "`MYVAR=value`",
+      "`$MYVAR=value`",
+      "`export MYVAR=value`"
     ],
     "answer": [
-      "export MYVAR=value"
+      "`export MYVAR=value`"
     ]
   },
   {
@@ -964,14 +964,14 @@
     "id": 70,
     "question": "Which of the following commands creates the ZIP archive poems.zip containing all files in the current directory whose names end in .txt?",
     "options": [
-      "zip *.txt > poems.zip",
-      "zcat *.txt poems.zip",
-      "zip poems.zip *.txt",
-      "zip cfz poems.zip *.txt",
-      "cat *.txt | zip poems.zip"
+      "`zip *.txt > poems.zip`",
+      "`zcat *.txt poems.zip`",
+      "`zip poems.zip *.txt`",
+      "`zip cfz poems.zip *.txt`",
+      "`cat *.txt | zip poems.zip`"
     ],
     "answer": [
-      "zip poems.zip *.txt"
+      "`zip poems.zip *.txt`"
     ]
   },
   {
@@ -993,28 +993,28 @@
     "id": 72,
     "question": "Which of the following commands extracts the contents of the compressed archive file1.tar.gz?",
     "options": [
-      "tar -czf file1.tar.gz",
-      "ztar file1.tar.gz",
-      "tar -xzf file1.tar.gz",
-      "tar --extract file1.tar.gz",
-      "detar file1.tar.gz"
+      "`tar -czf file1.tar.gz`",
+      "`ztar file1.tar.gz`",
+      "`tar -xzf file1.tar.gz`",
+      "`tar --extract file1.tar.gz`",
+      "`detar file1.tar.gz`"
     ],
     "answer": [
-      "tar -xzf file1.tar.gz"
+      "`tar -xzf file1.tar.gz`"
     ]
   },
   {
     "id": 73,
     "question": "Which of the following commands finds all lines in the file operating-systems.txt which contain the term linux, regardless of the case?",
     "options": [
-      "igrep linux operating-systems.txt",
-      "less -i linux operating-systems.txt",
-      "grep -i linux operating-systems.txt",
-      "cut linux operating-systems.txt",
-      "cut [Ll] [Ii] [Nn] [Uu] [Xx] operating-systems.txt"
+      "`igrep linux operating-systems.txt`",
+      "`less -i linux operating-systems.txt`",
+      "`grep -i linux operating-systems.txt`",
+      "`cut linux operating-systems.txt`",
+      "`cut [Ll] [Ii] [Nn] [Uu] [Xx] operating-systems.txt`"
     ],
     "answer": [
-      "grep -i linux operating-systems.txt"
+      "`grep -i linux operating-systems.txt`"
     ]
   },
   {
