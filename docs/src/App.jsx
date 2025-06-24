@@ -66,7 +66,8 @@ const App = () => {
   const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
   useEffect(() => {
-    let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
+    //let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
+    let fetchUrl = "http://localhost:5173/lpi_010_160_exam/";
     fetchUrl += window.location.href.includes("/lpi_010_160_exam/extended") ? "lpi_exercise_questions.json" : "lpi_questions.json";
 
     fetch(fetchUrl)
@@ -98,13 +99,23 @@ const App = () => {
   const handleSubmitAnswer = () => {
     const currentQuestion = questions[currentQuestionIndex];
     const correct = currentQuestion.answer;
+  
     const isAnswerCorrect =
       selectedAnswers.length === correct.length &&
       selectedAnswers.every((answer) => correct.includes(answer));
-
+  
     setIsCorrect(isAnswerCorrect);
     setShowAnswer(true);
+  };  
 
+  const handleNextQuestion = () => {
+    const currentQuestion = questions[currentQuestionIndex];
+    const correct = currentQuestion.answer;
+  
+    const isAnswerCorrect =
+      selectedAnswers.length === correct.length &&
+      selectedAnswers.every((answer) => correct.includes(answer));
+  
     if (isAnswerCorrect) {
       setCorrectAnswersCount((prev) => prev + 1);
     } else {
@@ -118,9 +129,7 @@ const App = () => {
         },
       ]);
     }
-  };
-
-  const handleNextQuestion = () => {
+  
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
       setSelectedAnswers([]);
@@ -129,7 +138,7 @@ const App = () => {
     } else {
       setTestComplete(true);
     }
-  };
+  };  
 
   if (loading) return <div className="text-center text-xl">Loading questions...</div>;
 
