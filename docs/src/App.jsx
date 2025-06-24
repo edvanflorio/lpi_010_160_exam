@@ -66,8 +66,7 @@ const App = () => {
   const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
   useEffect(() => {
-    //let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
-    let fetchUrl = "http://localhost:5173/lpi_010_160_exam/";
+    let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
     fetchUrl += window.location.href.includes("/lpi_010_160_exam/extended") ? "lpi_exercise_questions.json" : "lpi_questions.json";
 
     fetch(fetchUrl)
