@@ -8,7 +8,7 @@ The Linux Essentials certificate validates a demonstrated understanding of the f
   <img src="https://www.lpi.org/wp-content/uploads/2023/04/Essentials-Linux_250_0.png" alt="alt text">
 </p>
 
-This bash script/[webpage](https://noam-alum.github.io/lpi_010_160_exam/) lets you practice for LPI 010-160 (Linux Essentials) with real questions from the exam.
+This [webpage](https://noam-alum.github.io/lpi_010_160_exam/) lets you practice for LPI 010-160 (Linux Essentials) with real questions from the exam.
 
 <hr>
 
