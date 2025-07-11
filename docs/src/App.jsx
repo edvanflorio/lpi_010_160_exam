@@ -209,7 +209,7 @@ const App = () => {
       <h1 className="text-4xl font-bold mb-6">
         <a href="https://github.com/Noam-Alum/lpi_010_160_exam/">LPI Practice Exam</a>
       </h1>
-      <p className="text-4s font-bold mb-6">Made with ❤️</p>
+      <p className="text-xl font-bold mb-6">Made with ❤️</p>
       <div className="w-full max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg overflow-x-auto">
         <div className="flex justify-between items-center mb-4 text-sm text-gray-300">
           <span>Question {currentQuestionIndex + 1} of {questions.length}</span>
