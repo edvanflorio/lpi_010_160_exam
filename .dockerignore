@@ -1,0 +1,9 @@
+# Ignore version control and build artifacts
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+# Node modules and build output
+docs/node_modules
+docs/dist
+.idea
