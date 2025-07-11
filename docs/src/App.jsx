@@ -3,6 +3,7 @@ import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { shuffleArray } from "./utils/shuffleArray.js";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -63,7 +64,6 @@ const App = () => {
   const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState([]);
 
-  const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
   useEffect(() => {
     let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
