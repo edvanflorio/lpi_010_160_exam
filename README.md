@@ -56,7 +56,7 @@ Acesse o simulador em: [http://localhost:3000](http://localhost:3000)
 Este simulador é mantido de forma independente.
 Se ele te ajudou nos estudos, considere **apoiar o projeto** com qualquer quantia ou estrela no GitHub ⭐
 
-> 💬 Para apoio ou contato direto: [edvanflorio@gmail.com](mailto:edvansilva0511@gmail.com)
+> 💬 Para apoio ou contato direto: [edvansilva0511@gmail.com](mailto:edvansilva0511@gmail.com)
 > 💰 Chave PIX: `edvansilva0511@gmail.com` (opcional)
 
 ---
