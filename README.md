@@ -1,5 +1,8 @@
 # Simulador LPI Linux Essentials (010-160) 🇧🇷
 
+[![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker)](https://hub.docker.com/)
+[![License](https://img.shields.io/github/license/edvanflorio/lpi_010_160_exam)](LICENSE)
+
 Este projeto é um **simulador de exame LPI Linux Essentials (010-160)** totalmente em **português**, com ênfase em usabilidade, acessibilidade e aprendizado com **feedback explicativo**.  
 Foi baseado no repositório original [Noam-Alum/lpi_010_160_exam](https://github.com/Noam-Alum/lpi_010_160_exam), mas passou por melhorias significativas descritas abaixo.
 
@@ -53,8 +56,8 @@ Acesse o simulador em: [http://localhost:3000](http://localhost:3000)
 Este simulador é mantido de forma independente.
 Se ele te ajudou nos estudos, considere **apoiar o projeto** com qualquer quantia ou estrela no GitHub ⭐
 
-> 💬 Para apoio ou contato direto: [edvanflorio@gmail.com](mailto:edvanflorio@gmail.com)
-> 💰 Chave PIX: `edvanflorio@gmail.com` (opcional)
+> 💬 Para apoio ou contato direto: [edvanflorio@gmail.com](mailto:edvansilva0511@gmail.com)
+> 💰 Chave PIX: `edvansilva0511@gmail.com` (opcional)
 
 ---
 
