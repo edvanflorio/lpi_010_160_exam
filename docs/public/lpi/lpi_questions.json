@@ -1,0 +1,2223 @@
+[
+  {
+  "id": 246,
+  "question": "Em que ano Linus Torvalds começou a desenvolver o Linux?",
+  "options": [
+    "1989",
+    "1991",
+    "1993",
+    "2004",
+    "1970"
+  ],
+  "answer": [
+    "1991"
+  ],
+  "feedback": "Linus Torvalds anunciou o projeto Linux em 1991, ano em que iniciou seu desenvolvimento."
+},
+{
+  "id": 247,
+  "question": "O que é uma distribuição Linux?",
+  "options": [
+    "Um dispositivo de hardware",
+    "Um pacote de software que inclui o kernel Linux e aplicativos",
+    "Um sistema operacional da Microsoft",
+    "Um protocolo de rede",
+    "Uma linguagem de programação"
+  ],
+  "answer": [
+    "Um pacote de software que inclui o kernel Linux e aplicativos"
+  ],
+  "feedback": "Uma distribuição Linux reúne o kernel Linux com diversos softwares, formando um sistema operacional completo mantido por uma comunidade ou empresa."
+},
+{
+  "id": 248,
+  "question": "Qual das seguintes distribuições pertence à família Debian?",
+  "options": [
+    "Red Hat",
+    "Fedora",
+    "Ubuntu",
+    "SUSE",
+    "Arch Linux"
+  ],
+  "answer": [
+    "Ubuntu"
+  ],
+  "feedback": "Ubuntu é derivada do Debian, enquanto Red Hat, Fedora, SUSE e Arch Linux pertencem a outras famílias ou linhagens de distribuições."
+},
+{
+  "id": 249,
+  "question": "Qual projeto utiliza o código-fonte do Red Hat Enterprise Linux?",
+  "options": [
+    "Debian",
+    "CentOS",
+    "Fedora",
+    "openSUSE",
+    "Slackware"
+  ],
+  "answer": [
+    "CentOS"
+  ],
+  "feedback": "O CentOS é uma distribuição que recompila o código-fonte do Red Hat Enterprise Linux, oferecendo um sistema compatível sem custo de assinatura."
+},
+{
+  "id": 250,
+  "question": "Qual sistema operacional baseado em Linux é usado principalmente em smartphones?",
+  "options": [
+    "Raspbian",
+    "Windows",
+    "Android",
+    "macOS",
+    "Ubuntu"
+  ],
+  "answer": [
+    "Android"
+  ],
+  "feedback": "O Android utiliza o kernel Linux e é amplamente usado em smartphones, diferentemente do Windows, macOS ou distribuições Linux para PCs."
+},
+{
+  "id": 251,
+  "question": "Qual a principal vantagem da computação em nuvem?",
+  "options": [
+    "Custos elevados",
+    "Flexibilidade",
+    "Complexidade elevada",
+    "Dificuldade de recuperação",
+    "Necessidade de infraestrutura local"
+  ],
+  "answer": [
+    "Flexibilidade"
+  ],
+  "feedback": "A computação em nuvem oferece flexibilidade para ajustar recursos conforme a demanda, ao contrário de exigir alta infraestrutura local ou acarretar custos necessariamente elevados."
+},
+{
+  "id": 252,
+  "question": "Qual distribuição Linux é particularmente adequada para iniciantes?",
+  "options": [
+    "Debian",
+    "Ubuntu",
+    "CentOS",
+    "Red Hat Enterprise Linux",
+    "Arch Linux"
+  ],
+  "answer": [
+    "Ubuntu"
+  ],
+  "feedback": "O Ubuntu é conhecido pela facilidade de uso e grande suporte da comunidade, sendo recomendado para iniciantes. Distribuições como Arch ou CentOS tendem a exigir mais conhecimento técnico."
+},
+{
+  "id": 253,
+  "question": "Qual distribuição Linux é comumente usada em ambientes corporativos?",
+  "options": [
+    "Fedora",
+    "Arch Linux",
+    "Debian",
+    "Gentoo",
+    "Linux Mint"
+  ],
+  "answer": [
+    "Debian"
+  ],
+  "feedback": "O Debian (e distribuições derivadas estáveis) é muito utilizado em servidores corporativos pela sua estabilidade e suporte prolongado, diferentemente de distribuições de ciclo rápido ou voltadas a entusiastas."
+},
+{
+  "id": 254,
+  "question": "Qual formato de documento é preferencial nas suítes LibreOffice e Apache OpenOffice?",
+  "options": [
+    "Formato Microsoft Word (DOCX)",
+    "PDF",
+    "Formato OpenDocument (ODF)",
+    "Rich Text Format (RTF)",
+    "Texto simples (TXT)"
+  ],
+  "answer": [
+    "Formato OpenDocument (ODF)"
+  ],
+  "feedback": "O formato OpenDocument (ODF) é o padrão aberto utilizado por LibreOffice e OpenOffice para garantir compatibilidade e liberdade de formato, em contraste com formatos proprietários como DOCX."
+},
+{
+  "id": 255,
+  "question": "Qual navegador web de código aberto serviu de base para o desenvolvimento do Google Chrome?",
+  "options": [
+    "Mozilla Firefox",
+    "Safari",
+    "Chromium",
+    "Opera",
+    "Konqueror"
+  ],
+  "answer": [
+    "Chromium"
+  ],
+  "feedback": "O Google Chrome foi criado a partir do projeto de código aberto Chromium, que fornece a base do navegador. Outros navegadores, como Firefox ou Opera, possuem bases de código diferentes."
+},
+{
+  "id": 256,
+  "question": "Qual pacote de software permite a troca de arquivos entre computadores Linux e Windows em uma rede local?",
+  "options": [
+    "NFS",
+    "Samba",
+    "FTP",
+    "HTTP",
+    "SSH"
+  ],
+  "answer": [
+    "Samba"
+  ],
+  "feedback": "O Samba implementa o protocolo SMB/CIFS no Linux, permitindo compartilhar arquivos e recursos com máquinas Windows em rede local. NFS é usado principalmente entre sistemas Unix/Linux e FTP/HTTP servem para transferência, não para compartilhamento transparente de rede."
+},
+{
+  "id": 257,
+  "question": "Qual comando poderia ser usado para instalar o Blender no Ubuntu (baseado em Debian)?",
+  "options": [
+    "rpm install blender",
+    "apt-get install blender",
+    "yum install blender",
+    "dnf install blender",
+    "pacman -S blender"
+  ],
+  "answer": [
+    "apt-get install blender"
+  ],
+  "feedback": "Sistemas Ubuntu/Debian usam o gerenciador de pacotes APT (ex: apt-get). Comandos como rpm, yum ou dnf pertencem a distribuições da família Red Hat, e pacman é usado no Arch Linux."
+},
+{
+  "id": 258,
+  "question": "Qual aplicativo do pacote LibreOffice é utilizado para planilhas eletrônicas?",
+  "options": [
+    "Writer",
+    "Calc",
+    "Impress",
+    "Draw",
+    "Base"
+  ],
+  "answer": [
+    "Calc"
+  ],
+  "feedback": "O LibreOffice Calc corresponde ao editor de planilhas (equivalente ao Excel). O Writer é editor de texto, Impress é para apresentações, Draw para desenhos vetoriais e Base para bancos de dados."
+},
+{
+  "id": 259,
+  "question": "Qual é o aplicativo mais popular para editar arquivos SVG em sistemas Linux?",
+  "options": [
+    "GIMP",
+    "Inkscape",
+    "Blender",
+    "ImageMagick",
+    "LibreOffice Draw"
+  ],
+  "answer": [
+    "Inkscape"
+  ],
+  "feedback": "O Inkscape é um editor de gráficos vetoriais amplamente utilizado para editar arquivos SVG. GIMP e ImageMagick lidam com imagens raster, e Blender é focado em modelagem 3D."
+},
+{
+  "id": 260,
+  "question": "O que é a Liberdade 0 de acordo com Richard Stallman (FSF)?",
+  "options": [
+    "A liberdade de alterar o programa",
+    "A liberdade de redistribuir o programa",
+    "A liberdade de executar o programa como quiser",
+    "A liberdade de melhorar o programa",
+    "A liberdade de usar o programa apenas para fins não comerciais"
+  ],
+  "answer": [
+    "A liberdade de executar o programa como quiser"
+  ],
+  "feedback": "A Liberdade 0 do software livre é o direito de executar o programa para qualquer propósito, sem restrições."
+},
+{
+  "id": 261,
+  "question": "O que é a Liberdade 1 de acordo com Richard Stallman?",
+  "options": [
+    "A liberdade de executar o programa como quiser",
+    "A liberdade de estudar e modificar o programa (código-fonte)",
+    "A liberdade de redistribuir o programa",
+    "A liberdade de distribuir versões modificadas do programa",
+    "A liberdade de usar o programa somente para fins educacionais"
+  ],
+  "answer": [
+    "A liberdade de estudar e modificar o programa (código-fonte)"
+  ],
+  "feedback": "A Liberdade 1 refere-se à possibilidade de estudar como o programa funciona e adaptá-lo às suas necessidades, o que requer acesso ao código-fonte."
+},
+{
+  "id": 262,
+  "question": "O que é a Liberdade 2 de acordo com Richard Stallman?",
+  "options": [
+    "A liberdade de alterar o programa",
+    "A liberdade de redistribuir o programa",
+    "A liberdade de executar o programa como quiser",
+    "A liberdade de melhorar o programa e liberar as melhorias",
+    "A liberdade de proibir o uso comercial do programa"
+  ],
+  "answer": [
+    "A liberdade de redistribuir o programa"
+  ],
+  "feedback": "A Liberdade 2 estabelece o direito de distribuir cópias exatas do programa para ajudar ao próximo, permitindo compartilhar o software livremente."
+},
+{
+  "id": 263,
+  "question": "O que é a Liberdade 3 de acordo com Richard Stallman?",
+  "options": [
+    "A liberdade de alterar o programa",
+    "A liberdade de redistribuir o programa",
+    "A liberdade de executar o programa como quiser",
+    "A liberdade de distribuir o programa modificado",
+    "A liberdade de exigir pagamento pelo uso do programa"
+  ],
+  "answer": [
+    "A liberdade de distribuir o programa modificado"
+  ],
+  "feedback": "A Liberdade 3 garante que você possa melhorar um programa e distribuir essas modificações, de modo que toda a comunidade se beneficie das melhorias."
+},
+{
+  "id": 264,
+  "question": "O que é Copyleft?",
+  "options": [
+    "O princípio de que o software deve ser sempre livre",
+    "O princípio de que o software deve ser sempre proprietário",
+    "O princípio de que o software modificado deve ser disponibilizado sob a mesma licença",
+    "O princípio de que o software deve ser sempre de código aberto",
+    "O princípio de que o código-fonte nunca deve ser compartilhado"
+  ],
+  "answer": [
+    "O princípio de que o software modificado deve ser disponibilizado sob a mesma licença"
+  ],
+  "feedback": "Copyleft é a característica de certas licenças (como a GPL) que exige que as obras derivadas sejam distribuídas sob a mesma licença livre, garantindo que as liberdades originais sejam preservadas."
+},
+{
+  "id": 265,
+  "question": "O que significa a sigla FLOSS?",
+  "options": [
+    "Free/Libre Open Source Software",
+    "Fedora Linux Open Source Standard",
+    "Free Linux Open Source System",
+    "Free/Libre Open Source System",
+    "Framework for Learning Open Source Software"
+  ],
+  "answer": [
+    "Free/Libre Open Source Software"
+  ],
+  "feedback": "FLOSS significa \"Free/Libre and Open Source Software\", referindo-se a software que é tanto livre (Free/Libre) quanto de código aberto (Open Source)."
+},
+{
+  "id": 266,
+  "question": "Qual licença você deve escolher para garantir que todas as futuras derivações de um software permaneçam livres?",
+  "options": [
+    "CC BY",
+    "GPL versão 3",
+    "Licença BSD de 2 cláusulas (BSD Simplificada)",
+    "LGPL",
+    "Licença MIT"
+  ],
+  "answer": [
+    "GPL versão 3"
+  ],
+  "feedback": "A GPLv3 é uma licença copyleft que assegura que trabalhos derivados continuem sob a mesma licença livre. Licenças permissivas (ex: BSD, MIT ou CC BY) permitiriam relicenciamento proprietário nas derivações."
+},
+{
+  "id": 267,
+  "question": "Qual dessas licenças é considerada permissiva (não-copyleft)?",
+  "options": [
+    "GPL versão 3",
+    "Licença BSD de 2 cláusulas (Simplificada)",
+    "CC BY-SA",
+    "GNU AGPL",
+    "Mozilla Public License (MPL)"
+  ],
+  "answer": [
+    "Licença BSD de 2 cláusulas (Simplificada)"
+  ],
+  "feedback": "A Licença BSD de 2 cláusulas é um exemplo de licença permissiva, que impõe poucas restrições ao redistribuir o software. Licenças como GPLv3 ou AGPL são copyleft, e CC BY-SA e MPL também têm cláusulas que as afastam das completamente permissivas."
+},
+{
+  "id": 268,
+  "question": "Como é possível ganhar dinheiro com um aplicativo web publicado sob uma licença livre?",
+  "options": [
+    "Venda de licenças",
+    "Licenciamento duplo",
+    "Vendendo hardware",
+    "Venda de espaço publicitário",
+    "Prestando suporte pago"
+  ],
+  "answer": [
+    "Licenciamento duplo"
+  ],
+  "feedback": "Uma estratégia para monetizar software livre é o licenciamento duplo: oferecer o software sob uma licença livre e, simultaneamente, sob uma licença comercial (pagando) para quem deseja usá-lo sob outros termos. Vender apenas licenças não funciona para software que já é livre, mas serviços como suporte e hospedagem também são modelos viáveis."
+},
+{
+  "id": 269,
+  "question": "Qual ferramenta de apresentações é amplamente utilizada em distribuições Linux?",
+  "options": [
+    "Microsoft PowerPoint",
+    "LibreOffice Impress",
+    "Google Slides",
+    "Prezi",
+    "Apple Keynote"
+  ],
+  "answer": [
+    "LibreOffice Impress"
+  ],
+  "feedback": "O LibreOffice Impress é a aplicação de apresentações de slides mais comum em ambientes Linux, sendo parte da suíte LibreOffice. PowerPoint e Keynote são software proprietários de outras plataformas, e Google Slides/Prezi são soluções online."
+},
+{
+  "id": 270,
+  "question": "Qual atalho de teclado abre uma janela de navegação privativa no Mozilla Firefox?",
+  "options": [
+    "Ctrl + Shift + N",
+    "Ctrl + Alt + P",
+    "Ctrl + Shift + P",
+    "Ctrl + Alt + N",
+    "Ctrl + P"
+  ],
+  "answer": [
+    "Ctrl + Shift + P"
+  ],
+  "feedback": "No Firefox, o atalho Ctrl+Shift+P abre uma nova janela privada. Atalhos semelhantes em outros navegadores podem diferir (por exemplo, no Chrome é Ctrl+Shift+N)."
+},
+{
+  "id": 271,
+  "question": "O que é o Gnome Terminal?",
+  "options": [
+    "Um navegador web",
+    "Um editor de texto",
+    "Um emulador de terminal gráfico",
+    "Um gerenciador de arquivos",
+    "Um gerenciador de janelas"
+  ],
+  "answer": [
+    "Um emulador de terminal gráfico"
+  ],
+  "feedback": "O Gnome Terminal é um emulador de terminal (interface de linha de comando) com interface gráfica. Não se trata de um navegador, editor, gerenciador de arquivos ou de janelas."
+},
+{
+  "id": 272,
+  "question": "O que é um hypervisor?",
+  "options": [
+    "Um navegador web",
+    "Um gerenciador de senhas",
+    "Um software para gerenciar máquinas virtuais",
+    "Um editor de texto",
+    "Um monitor de desempenho do sistema"
+  ],
+  "answer": [
+    "Um software para gerenciar máquinas virtuais"
+  ],
+  "feedback": "Um hypervisor (monitor de máquina virtual) permite criar e executar máquinas virtuais em um host físico. Ele não é navegador, editor ou gerenciador de senhas, mas sim a camada de virtualização do sistema."
+},
+{
+  "id": 273,
+  "question": "O que significa o princípio KISS seguido pelo projeto Gnome?",
+  "options": [
+    "\"Keep it simple, stupid.\"",
+    "\"Keep it secure and safe.\"",
+    "\"Keep it stylish and sleek.\"",
+    "\"Keep it synchronized and stable.\"",
+    "\"Keep it small and swift.\""
+  ],
+  "answer": [
+    "\"Keep it simple, stupid.\""
+  ],
+  "feedback": "KISS é um acrônimo para \"Keep It Simple, Stupid\", enfatizando que as soluções devem ser o mais simples possível. O projeto GNOME adota esse princípio de design simples e direto."
+},
+{
+  "id": 274,
+  "question": "O que é o OpenStack?",
+  "options": [
+    "Um projeto para construir PaaS (plataforma como serviço) privada",
+    "Um projeto para construir IaaS (infraestrutura como serviço) privada",
+    "Um projeto para construir SaaS (software como serviço) privada",
+    "Um hypervisor",
+    "Um sistema operacional para servidores"
+  ],
+  "answer": [
+    "Um projeto para construir IaaS (infraestrutura como serviço) privada"
+  ],
+  "feedback": "OpenStack é um conjunto de projetos de código aberto para implementação de infraestrutura como serviço (IaaS) em nuvens privadas. Não é um sistema operacional único, hypervisor ou serviço pronto (SaaS/PaaS), mas sim uma plataforma para gerenciar recursos de infraestrutura."
+},
+{
+  "id": 275,
+  "question": "Quais das seguintes opções são softwares de criptografia de disco válidos? (Escolha duas.)",
+  "options": [
+    "EncFS",
+    "dm-crypt",
+    "KeePass",
+    "Bitwarden",
+    "LastPass"
+  ],
+  "answer": [
+    "EncFS",
+    "dm-crypt"
+  ],
+  "feedback": "EncFS e dm-crypt são tecnologias de criptografia de disco (ou de sistema de arquivos) disponíveis no Linux. KeePass, Bitwarden e LastPass são gerenciadores de senhas, não ferramentas de criptografia de disco."
+},
+{
+  "id": 276,
+  "question": "Beamer é:",
+  "options": [
+    "Um mecanismo de criptografia",
+    "Uma ferramenta de apresentação em LaTeX",
+    "Um hypervisor",
+    "Um software de virtualização",
+    "Um editor de texto"
+  ],
+  "answer": [
+    "Uma ferramenta de apresentação em LaTeX"
+  ],
+  "feedback": "Beamer é uma classe (ferramenta) do LaTeX usada para criar apresentações de slides. Não tem relação com virtualização, criptografia ou edição de texto."
+},
+{
+  "id": 277,
+  "question": "Qual é o aspecto mais importante ao usar um gerenciador de senhas?",
+  "options": [
+    "Memorizar a senha mestra e usar uma senha única aleatória para cada serviço",
+    "Trocar a senha mestra regularmente",
+    "Instalar o gerenciador de senhas em múltiplos dispositivos",
+    "Atualizar o gerenciador de senhas regularmente",
+    "Reutilizar a senha mestra em outras contas"
+  ],
+  "answer": [
+    "Memorizar a senha mestra e usar uma senha única aleatória para cada serviço"
+  ],
+  "feedback": "Ao usar um gerenciador de senhas, é fundamental lembrar (e proteger) a senha mestra e utilizar senhas diferentes e aleatórias para cada serviço. Trocar a senha mestra com frequência pode ser arriscado se você esquecê-la, e reutilizá-la em outros locais ou negligenciar atualizações não são práticas recomendadas."
+},
+{
+  "id": 278,
+  "question": "Qual é o shell mais utilizado no Linux?",
+  "options": [
+    "C shell (csh)",
+    "Bash",
+    "Korn shell (ksh)",
+    "Z shell (zsh)",
+    "Fish shell"
+  ],
+  "answer": [
+    "Bash"
+  ],
+  "feedback": "O Bash (Bourne Again SHell) é o shell padrão na maioria das distribuições Linux e, portanto, o mais utilizado. Outros shells (csh, ksh, zsh, fish) são usados em casos específicos ou por preferência do usuário."
+},
+{
+  "id": 279,
+  "question": "O que o prompt \"$\" no terminal indica?",
+  "options": [
+    "Que o shell está sendo executado como superusuário (root)",
+    "Que ocorreu um erro no shell",
+    "Que o shell está sendo executado por um usuário normal",
+    "Que indica o tipo de shell em uso",
+    "Que o shell está em modo de manutenção"
+  ],
+  "answer": [
+    "Que o shell está sendo executado por um usuário normal"
+  ],
+  "feedback": "No prompt padrão, o caractere \"$\" indica que a sessão do shell pertence a um usuário comum. Já o prompt terminando em \"#\" geralmente indica sessão do superusuário root."
+},
+{
+  "id": 280,
+  "question": "Qual shell é uma versão aprimorada do C shell (csh)?",
+  "options": [
+    "Bash",
+    "Korn shell (ksh)",
+    "Z shell (zsh)",
+    "tcsh",
+    "Fish shell"
+  ],
+  "answer": [
+    "tcsh"
+  ],
+  "feedback": "O tcsh é um shell derivado e aprimorado do C shell (csh). Bash, Korn e Zsh são shells da família Bourne (sh) e o Fish é um shell moderno separado."
+},
+{
+  "id": 281,
+  "question": "O que significa o caractere \"~\" exibido no prompt do shell?",
+  "options": [
+    "O diretório raiz ( / )",
+    "O diretório atual",
+    "O diretório home do usuário atual",
+    "O tipo de shell",
+    "O diretório pai"
+  ],
+  "answer": [
+    "O diretório home do usuário atual"
+  ],
+  "feedback": "No contexto do prompt, \"~\" representa o diretório pessoal (home) do usuário. Por exemplo, se o prompt mostra \"~$\", significa que você está em seu home directory. Não indica diretório raiz ou atual quando diferente do home."
+},
+{
+  "id": 282,
+  "question": "Qual comando exibe o tipo (origem) de um comando específico?",
+  "options": [
+    "echo",
+    "type",
+    "ls",
+    "cd",
+    "which"
+  ],
+  "answer": [
+    "type"
+  ],
+  "feedback": "O comando `type` mostra a natureza de um comando (por exemplo, se é um comando interno do shell, um executável externo, um alias etc.)."
+},
+{
+  "id": 283,
+  "question": "O que é o shell Bash?",
+  "options": [
+    "Uma linguagem de programação",
+    "O shell mais popular em computadores Linux",
+    "Um editor de texto",
+    "Um sistema de arquivos",
+    "Um sistema operacional completo"
+  ],
+  "answer": [
+    "O shell mais popular em computadores Linux"
+  ],
+  "feedback": "Bash é o shell (interpretador de comandos) mais comum no Linux. Não é um sistema operacional por si só, mas faz parte dele. Bash pode ser usado para programação de scripts, mas em si não é classificado como linguagem de programação geral."
+},
+{
+  "id": 284,
+  "question": "Qual comando lista o conteúdo de um diretório?",
+  "options": [
+    "echo",
+    "ls",
+    "type",
+    "touch",
+    "pwd"
+  ],
+  "answer": [
+    "ls"
+  ],
+  "feedback": "O comando `ls` (\"list\") exibe o conteúdo (arquivos e subdiretórios) de um diretório. Comandos como echo, touch, pwd têm finalidades diferentes."
+},
+{
+  "id": 285,
+  "question": "O que faz o comando `touch`?",
+  "options": [
+    "Exibe o nome do host do sistema",
+    "Cria um arquivo vazio ou atualiza a data de modificação de um arquivo existente",
+    "Lista o conteúdo de um diretório",
+    "Imprime texto no terminal",
+    "Mostra a hora atual do sistema"
+  ],
+  "answer": [
+    "Cria um arquivo vazio ou atualiza a data de modificação de um arquivo existente"
+  ],
+  "feedback": "O comando `touch` é usado para criar arquivos vazios (se eles não existirem) ou atualizar o timestamp (data/hora de modificação) de arquivos já existentes."
+},
+{
+  "id": 286,
+  "question": "Qual é o comando para exibir ou alterar o nome de host (hostname) do sistema?",
+  "options": [
+    "ls",
+    "hostname",
+    "echo",
+    "type",
+    "host"
+  ],
+  "answer": [
+    "hostname"
+  ],
+  "feedback": "O comando `hostname` mostra ou define o nome de host do sistema. Comandos como ls, echo, type têm funções distintas e não interagem com o nome de host."
+},
+{
+  "id": 287,
+  "question": "O que é um comando interno (builtin) do shell?",
+  "options": [
+    "Um comando externo (programa separado do shell)",
+    "Um comando integrado ao próprio shell",
+    "Um sistema de arquivos especial",
+    "Um editor de texto do shell",
+    "Um script interno do sistema"
+  ],
+  "answer": [
+    "Um comando integrado ao próprio shell"
+  ],
+  "feedback": "Comandos internos do shell são executados dentro do próprio interpretador (shell), sem chamar um programa externo. Por exemplo, `cd` e `exit` são builtins. Já comandos como ls, vim etc. são programas externos."
+},
+{
+  "id": 288,
+  "question": "O que são variáveis locais (no contexto do shell)?",
+  "options": [
+    "Variáveis disponíveis em todas as sessões do shell",
+    "Variáveis disponíveis apenas na sessão atual do shell",
+    "Variáveis que são persistentes entre reinicializações",
+    "Variáveis disponíveis apenas em subprocessos do shell",
+    "Variáveis definidas pelo núcleo (kernel) do sistema"
+  ],
+  "answer": [
+    "Variáveis disponíveis apenas na sessão atual do shell"
+  ],
+  "feedback": "Variáveis locais do shell existem somente na sessão de shell em que foram definidas. Elas não são herdadas por processos filhos nem preservadas em outras sessões."
+},
+{
+  "id": 289,
+  "question": "Como se cria uma variável local no shell?",
+  "options": [
+    "Com o comando `export`",
+    "Com o comando `unset`",
+    "Utilizando o operador `=` (sinal de igual) sem espaços",
+    "Com o comando `env`",
+    "Prefixando o nome da variável com `$`"
+  ],
+  "answer": [
+    "Utilizando o operador `=` (sinal de igual) sem espaços"
+  ],
+  "feedback": "Para criar/atribuir uma variável local no shell Bash, basta usar o formato NOME=valor, sem espaços em torno do sinal de igual. `export` é usado para tornar a variável de ambiente (não apenas local), e `unset` para removê-la."
+},
+{
+  "id": 290,
+  "question": "O que são variáveis de ambiente?",
+  "options": [
+    "Variáveis disponíveis apenas na sessão atual do shell",
+    "Variáveis persistentes (salvas permanentemente)",
+    "Variáveis disponíveis em uma sessão de shell e em seus subprocessos",
+    "Variáveis disponíveis apenas nos subprocessos (e não no shell atual)",
+    "Variáveis definidas automaticamente pelo sistema operacional"
+  ],
+  "answer": [
+    "Variáveis disponíveis em uma sessão de shell e em seus subprocessos"
+  ],
+  "feedback": "Variáveis de ambiente são aquelas exportadas para que não apenas o shell atual, mas também os processos iniciados a partir dele (subprocessos), possam acessá-las. Elas não são necessariamente permanentes, a menos que definidas em arquivos de configuração."
+},
+{
+  "id": 291,
+  "question": "Como tornar uma variável local em variável de ambiente?",
+  "options": [
+    "Com o comando `unset`",
+    "Com o comando `export`",
+    "Apenas usando o operador `=`",
+    "Com o comando `env`",
+    "Com o comando `set`"
+  ],
+  "answer": [
+    "Com o comando `export`"
+  ],
+  "feedback": "Para que uma variável do shell fique disponível no ambiente (e seja herdada por subprocessos), é preciso 'exportá-la' usando o comando `export VARIAVEL`. Assim ela se torna uma variável de ambiente."
+},
+{
+  "id": 292,
+  "question": "O que o comando `env` exibe?",
+  "options": [
+    "Cria uma nova variável",
+    "Exibe as variáveis de ambiente atuais",
+    "Remove uma variável do ambiente",
+    "Imprime texto na tela",
+    "Mostra a versão do shell"
+  ],
+  "answer": [
+    "Exibe as variáveis de ambiente atuais"
+  ],
+  "feedback": "Sem argumentos, `env` lista todas as variáveis de ambiente do processo atual. Também pode ser usado para executar comandos com um ambiente modificado, mas seu uso simples é exibir o ambiente."
+},
+{
+  "id": 293,
+  "question": "Qual é o escopo da variável local chamada `numero`?",
+  "options": [
+    "A sessão de shell atual e todos os seus subshells",
+    "Apenas a sessão de shell atual",
+    "Apenas os subprocessos (subshells) gerados",
+    "Todas as sessões de shell (globalmente)",
+    "Todos os processos do sistema"
+  ],
+  "answer": [
+    "Apenas a sessão de shell atual"
+  ],
+  "feedback": "Uma variável local (não exportada) existe somente no shell onde foi criada. Ela não está disponível fora dele nem em subshells gerados a partir dele."
+},
+{
+  "id": 294,
+  "question": "Como criar uma variável de ambiente chamada `ORDEM` com o valor \"desc\"?",
+  "options": [
+    "ORDER=desc",
+    "number=5",
+    "export ORDER=desc",
+    "echo ORDER=desc",
+    "set ORDER desc"
+  ],
+  "answer": [
+    "export ORDER=desc"
+  ],
+  "feedback": "Para criar (e exportar) uma variável de ambiente ORDEM, utiliza-se: `export ORDEM=desc`. Apenas usar ORDEM=desc criaria uma variável local. Os outros comandos listados não cumprem essa finalidade."
+},
+{
+  "id": 295,
+  "question": "Qual comando exibe texto na tela (saída padrão)?",
+  "options": [
+    "env",
+    "echo",
+    "export",
+    "unset",
+    "cat"
+  ],
+  "answer": [
+    "echo"
+  ],
+  "feedback": "O comando `echo` imprime na saída padrão o texto passado a ele. Os demais comandos da lista têm outras funções (env lista variáveis, export/unset ajustam variáveis, cat exibe conteúdo de arquivos)."
+},
+{
+  "id": 296,
+  "question": "Qual é a finalidade do comando `man`?",
+  "options": [
+    "Mostra o conteúdo de um diretório",
+    "Mostra a página de manual de um comando",
+    "Mostra o conteúdo de um arquivo",
+    "Mostra as últimas linhas de um arquivo",
+    "Mostra as primeiras linhas de um arquivo"
+  ],
+  "answer": [
+    "Mostra a página de manual de um comando"
+  ],
+  "feedback": "O comando `man` exibe o manual (documentação) de outros comandos ou arquivos do sistema, detalhando uso, opções etc. Ele não lista diretórios nem arquivos."
+},
+{
+  "id": 297,
+  "question": "Qual seção (categoria) do manual (man pages) contém os comandos de usuário?",
+  "options": [
+    "Seção 2",
+    "Seção 3",
+    "Seção 1",
+    "Seção 5",
+    "Seção 8"
+  ],
+  "answer": [
+    "Seção 1"
+  ],
+  "feedback": "A seção 1 do manual do UNIX/Linux é reservada aos comandos de usuário (executáveis utilizáveis em shell pelos usuários). Outras seções tratam de chamadas de sistema (2), bibliotecas (3), arquivos de configuração (5), comandos de administrador (8), etc."
+},
+{
+  "id": 298,
+  "question": "Como navegar por uma página de manual (man)?",
+  "options": [
+    "Com as teclas de seta e a barra de espaço",
+    "Com as teclas W e S",
+    "Com as teclas A e D",
+    "Com as teclas J e K",
+    "Usando o mouse"
+  ],
+  "answer": [
+    "Com as teclas de seta e a barra de espaço"
+  ],
+  "feedback": "As páginas de manual (que abrem geralmente no programa less) podem ser navegadas usando as setas (linha a linha) e a barra de espaço (avançar uma página). Também é possível usar PageUp/PageDown ou as teclas vi (J, K) dependendo da configuração, mas o método comum é setas e espaço."
+},
+{
+  "id": 299,
+  "question": "Qual comando é usado para localizar um arquivo buscando em um banco de dados pré-indexado?",
+  "options": [
+    "find",
+    "grip",
+    "locate",
+    "search",
+    "whereis"
+  ],
+  "answer": [
+    "locate"
+  ],
+  "feedback": "`locate` consulta um banco de dados indexado (atualizado geralmente pelo `updatedb`) para encontrar arquivos de forma rápida. Já o comando `find` realiza busca direta no sistema de arquivos (mais lenta)."
+},
+{
+  "id": 300,
+  "question": "Qual a diferença entre os comandos `locate` e `find`?",
+  "options": [
+    "`locate` busca em um banco de dados, enquanto `find` busca nos diretórios recursivamente em tempo real",
+    "`locate` busca recursivamente nos diretórios, enquanto `find` consulta um banco de dados",
+    "`locate` mostra apenas arquivos ocultos, `find` mostra todos os arquivos",
+    "`locate` mostra apenas arquivos de texto, `find` mostra todos os tipos de arquivo",
+    "`locate` busca apenas arquivos de sistema, `find` busca todos os arquivos"
+  ],
+  "answer": [
+    "`locate` busca em um banco de dados, enquanto `find` busca nos diretórios recursivamente em tempo real"
+  ],
+  "feedback": "A principal diferença: `locate` utiliza uma base de dados pré-construída (atualizada periodicamente), por isso retorna resultados rapidamente mas pode não estar 100% atualizada. Já `find` percorre o sistema de arquivos em tempo real a cada execução, encontrando tudo inclusive alterações recentes, porém de modo mais lento."
+},
+{
+  "id": 301,
+  "question": "O que o comando `ls` faz?",
+  "options": [
+    "Mostra o conteúdo de um diretório",
+    "Copia um arquivo",
+    "Move um arquivo",
+    "Exclui um arquivo",
+    "Altera o diretório atual"
+  ],
+  "answer": [
+    "Mostra o conteúdo de um diretório"
+  ],
+  "feedback": "O comando `ls` lista os arquivos e subdiretórios contidos em um diretório. Ele não copia, move ou remove arquivos (essas tarefas são feitas por cp, mv, rm respectivamente) e não muda o diretório atual (feito pelo cd)."
+},
+{
+  "id": 302,
+  "question": "Qual comando exibe a página de manual de um assunto ou comando específico?",
+  "options": [
+    "info",
+    "locate",
+    "find",
+    "man",
+    "whatis"
+  ],
+  "answer": [
+    "man"
+  ],
+  "feedback": "`man assunto` abre a documentação (man page) referente ao assunto/comando. `info` abre documentações no formato info (se houver), e whatis mostra um breve resumo, mas o manual completo é acessado via `man`."
+},
+{
+  "id": 303,
+  "question": "Qual comando é usado para criar um arquivo ou atualizar seu timestamp (data/hora)?",
+  "options": [
+    "cp",
+    "mv",
+    "touch",
+    "rm",
+    "mkdir"
+  ],
+  "answer": [
+    "touch"
+  ],
+  "feedback": "O comando `touch` é empregado para criar arquivos vazios (se ainda não existirem) ou alterar a marca de tempo (timestamp) de modificação de arquivos. Comandos como cp (copiar), mv (mover), rm (remover) e mkdir (criar diretório) têm funções diferentes."
+},
+{
+  "id": 304,
+  "question": "Qual comando exibe as primeiras linhas de um arquivo?",
+  "options": [
+    "tail",
+    "head",
+    "sort",
+    "grip",
+    "more"
+  ],
+  "answer": [
+    "head"
+  ],
+  "feedback": "O comando `head` por padrão mostra as primeiras 10 linhas de um arquivo (é possível especificar outra quantidade com -n). Em contraste, `tail` mostra as últimas linhas."
+},
+{
+  "id": 305,
+  "question": "Qual comando mostra o caminho (path) para um programa especificado e possivelmente suas páginas de documentação?",
+  "options": [
+    "whereis",
+    "head",
+    "tail",
+    "sort",
+    "which"
+  ],
+  "answer": [
+    "whereis"
+  ],
+  "feedback": "O comando `whereis` localiza a posição de um executável e seus arquivos associados (como man pages). Já `which` mostra apenas o caminho do executável que seria invocado pelo shell (com base no PATH)."
+},
+{
+  "id": 306,
+  "question": "Qual é o comando para listar o conteúdo do diretório atual?",
+  "options": [
+    "pwd",
+    "ls",
+    "cd",
+    "mkdir",
+    "echo"
+  ],
+  "answer": [
+    "ls"
+  ],
+  "feedback": "Para listar o conteúdo do diretório atual, utiliza-se `ls`. O comando pwd exibe o caminho do diretório atual, cd muda de diretório, mkdir cria diretórios e echo apenas exibe texto."
+},
+{
+  "id": 307,
+  "question": "Como é chamado o diretório que contém outro diretório (diretório pai)?",
+  "options": [
+    "Subdiretório",
+    "Diretório pai",
+    "Diretório de trabalho",
+    "Diretório raiz",
+    "Diretório pessoal"
+  ],
+  "answer": [
+    "Diretório pai"
+  ],
+  "feedback": "O diretório imediatamente acima, que contém o diretório atual, é chamado de diretório pai. Exemplo: se você está em /home/user/docs, o diretório pai é /home/user."
+},
+{
+  "id": 308,
+  "question": "Qual caractere representa o diretório home do usuário?",
+  "options": [
+    "/",
+    "..",
+    ".",
+    "~",
+    "$"
+  ],
+  "answer": [
+    "~"
+  ],
+  "feedback": "O til (~) é usado no shell para referir-se ao diretório home do usuário atual. Por exemplo, `cd ~` leva ao seu diretório pessoal. Já `.` representa o diretório atual e `..` o diretório pai."
+},
+{
+  "id": 309,
+  "question": "O que o sufixo \".txt\" significa no nome de um arquivo no Linux?",
+  "options": [
+    "Não tem um significado especial para o sistema",
+    "Indica um arquivo executável",
+    "Indica um arquivo binário",
+    "Indica um arquivo oculto",
+    "Indica um arquivo somente leitura"
+  ],
+  "answer": [
+    "Não tem um significado especial para o sistema"
+  ],
+  "feedback": "No Linux, as extensões de arquivo (como .txt) não têm significado intrínseco para o sistema operacional - elas servem mais como convenção para humanos ou aplicativos identificarem o tipo de conteúdo. O sistema determina o tipo de arquivo pelo conteúdo ou meta-informações, não apenas pela extensão."
+},
+{
+  "id": 310,
+  "question": "O que o comando `pwd` exibe?",
+  "options": [
+    "Altera o diretório atual",
+    "Mostra o caminho do diretório atual",
+    "Lista o conteúdo de um diretório",
+    "Cria um novo diretório",
+    "Mostra o nome do usuário atual"
+  ],
+  "answer": [
+    "Mostra o caminho do diretório atual"
+  ],
+  "feedback": "`pwd` significa \"print working directory\" e retorna o caminho completo do diretório em que você se encontra. Não altera nada, apenas exibe. Para mudar de diretório usa-se `cd`."
+},
+{
+  "id": 311,
+  "question": "Qual comando é usado para criar um novo diretório?",
+  "options": [
+    "pwd",
+    "ls",
+    "mkdir",
+    "cd",
+    "touch"
+  ],
+  "answer": [
+    "mkdir"
+  ],
+  "feedback": "O comando `mkdir` (make directory) cria um novo diretório. Ex: `mkdir nome_do_dir`. Nenhum dos outros comandos listados tem essa função."
+},
+{
+  "id": 312,
+  "question": "Qual é o comando para mudar para o diretório `/etc/network`?",
+  "options": [
+    "goto /etc/network",
+    "mv /etc/network",
+    "cd /etc/network",
+    "dir /etc/network",
+    "open /etc/network"
+  ],
+  "answer": [
+    "cd /etc/network"
+  ],
+  "feedback": "Para alterar o diretório de trabalho usa-se o comando `cd` (change directory). Assim, `cd /etc/network` leva diretamente a esse caminho, independentemente do diretório atual."
+},
+{
+  "id": 313,
+  "question": "Qual comando lista todos os arquivos e diretórios, incluindo os ocultos?",
+  "options": [
+    "ls -l",
+    "ls -a",
+    "ls -lh",
+    "ls -h",
+    "ls -R"
+  ],
+  "answer": [
+    "ls -a"
+  ],
+  "feedback": "No `ls`, a opção `-a` (all) faz listar *todos* os arquivos, incluindo aqueles ocultos (que começam com .). Outras opções: -l lista detalhado, -h mostra tamanhos legíveis, -R lista recursivamente."
+},
+{
+  "id": 314,
+  "question": "O que significa o caminho relativo \"..\"?",
+  "options": [
+    "Diretório atual",
+    "Diretório pai",
+    "Diretório raiz",
+    "Diretório pessoal (home)",
+    "Diretório temporário do sistema"
+  ],
+  "answer": [
+    "Diretório pai"
+  ],
+  "feedback": "\"..\" é um atalho que representa o diretório pai na hierarquia de sistema de arquivos. Por exemplo, estando em /home/user/docs, \"..\" referencia /home/user."
+},
+{
+  "id": 315,
+  "question": "Qual comando mostra também os arquivos e diretórios ocultos?",
+  "options": [
+    "ls -l",
+    "ls -h",
+    "ls -a",
+    "ls -R",
+    "ls -hidden"
+  ],
+  "answer": [
+    "ls -a"
+  ],
+  "feedback": "`ls -a` inclui na listagem os arquivos ocultos (nomes iniciados por .). Sem o -a, `ls` os ignora. As outras opções não têm essa finalidade."
+},
+{
+  "id": 316,
+  "question": "O que significa a opção `-l` do comando `ls`?",
+  "options": [
+    "Mostra apenas diretórios",
+    "Mostra arquivos ocultos",
+    "Listagem em formato longo (detalhado)",
+    "Lista ordenada pelo tamanho do arquivo",
+    "Lista recursivamente subdiretórios"
+  ],
+  "answer": [
+    "Listagem em formato longo (detalhado)"
+  ],
+  "feedback": "A opção `-l` faz o ls exibir detalhes dos arquivos (permissões, proprietário, tamanho, data, etc.), ou seja, um formato longo. Não se trata de filtrar ou ordenar em particular, e sim de mostrar mais informações."
+},
+{
+  "id": 317,
+  "question": "Qual comando o leva diretamente ao diretório pessoal (home) de um usuário?",
+  "options": [
+    "cd /home",
+    "cd ..",
+    "cd ~",
+    "cd /",
+    "home"
+  ],
+  "answer": [
+    "cd ~"
+  ],
+  "feedback": "Usar `cd ~` muda para o diretório home do usuário atual. Alternativamente, `cd` sem argumentos também faz isso na maioria dos shells. `cd /home` por si só leva ao diretório /home (que contém os homes dos usuários, não um home específico)."
+},
+{
+  "id": 318,
+  "question": "O que é o Filesystem Hierarchy Standard (FHS)?",
+  "options": [
+    "Um sistema de arquivos do Windows",
+    "Um padrão para a localização de arquivos e diretórios no Linux",
+    "Um protocolo de rede",
+    "Um módulo do kernel Linux",
+    "Um sistema de arquivos criptografado"
+  ],
+  "answer": [
+    "Um padrão para a localização de arquivos e diretórios no Linux"
+  ],
+  "feedback": "O FHS (Filesystem Hierarchy Standard) define uma estrutura padrão de diretórios no Unix/Linux, especificando onde certos tipos de arquivos devem residir (/bin, /etc, /home, /var, etc.)."
+},
+{
+  "id": 319,
+  "question": "O que significa a opção `-a` do comando `ls`?",
+  "options": [
+    "Mostra apenas diretórios",
+    "Exibe tamanhos de arquivo em formato legível (KB, MB)",
+    "Exibe todos os arquivos e diretórios, incluindo os ocultos",
+    "Lista ordenada pelo tamanho do arquivo",
+    "Lista ordenada pela data de modificação"
+  ],
+  "answer": [
+    "Exibe todos os arquivos e diretórios, incluindo os ocultos"
+  ],
+  "feedback": "A opção `-a` (all) no ls faz com que sejam listados todos os arquivos, até mesmo aqueles ocultos (nomes começando por \".\")."
+},
+{
+  "id": 320,
+  "question": "Como mudar para o diretório \"network\" independentemente da localização atual?",
+  "options": [
+    "cd ~/network",
+    "cd /home/network",
+    "cd /etc/network",
+    "cd /root/network",
+    "cd network"
+  ],
+  "answer": [
+    "cd /etc/network"
+  ],
+  "feedback": "Para acessar um diretório específico a partir da raiz, forneça o caminho absoluto. Nesse caso `cd /etc/network` leva corretamente ao diretório \"network\" dentro de /etc. Usar apenas `cd network` funcionaria apenas se ele for subdiretório do diretório atual."
+},
+{
+  "id": 321,
+  "question": "O que o comando `ls -lh` exibe?",
+  "options": [
+    "Lista todos os arquivos, incluindo os ocultos",
+    "Exibe os tamanhos de arquivo em formato legível (por exemplo, KB, MB)",
+    "Mostra apenas os diretórios",
+    "Lista arquivos ordenados por tamanho",
+    "Mostra apenas os arquivos modificados na última hora"
+  ],
+  "answer": [
+    "Exibe os tamanhos de arquivo em formato legível (por exemplo, KB, MB)"
+  ],
+  "feedback": "A combinação `-lh` no ls exibe as informações detalhadas dos arquivos (-l) e usa unidades legíveis para tamanhos (-h, de \"human-readable\"), como 5K, 17M em vez de bytes absolutos."
+},
+{
+  "id": 322,
+  "question": "Qual comando lista todos os subdiretórios, incluindo os ocultos?",
+  "options": [
+    "ls -l",
+    "ls -a",
+    "ls -ad */",
+    "ls -lh",
+    "ls -R"
+  ],
+  "answer": [
+    "ls -ad */"
+  ],
+  "feedback": "`ls -ad */` listará todos os subdiretórios no diretório atual (indicados por \"*/\"), incluindo possivelmente diretórios ocultos (pois -a inclui entradas começando por \".\"). A opção -d faz com que mostre o diretório em si, e não seu conteúdo."
+},
+{
+  "id": 323,
+  "question": "O que é um `alias` no Linux?",
+  "options": [
+    "Um diretório",
+    "Um tipo de arquivo",
+    "Um atalho para comandos usados com frequência",
+    "Uma variável de ambiente",
+    "Um usuário do sistema"
+  ],
+  "answer": [
+    "Um atalho para comandos usados com frequência"
+  ],
+  "feedback": "Um alias é um nome alternativo definido pelo usuário para um ou mais comandos, servindo como atalho. Por exemplo, pode-se definir `alias ll='ls -l'` para abreviar um comando longo."
+},
+{
+  "id": 324,
+  "question": "Qual comando exibe o diretório atual?",
+  "options": [
+    "ls",
+    "cd",
+    "pwd",
+    "echo",
+    "whoami"
+  ],
+  "answer": [
+    "pwd"
+  ],
+  "feedback": "O comando `pwd` (print working directory) mostra o caminho completo do diretório de trabalho atual. Ele não muda de diretório (como o cd) nem lista conteúdo (ls)."
+},
+{
+  "id": 326,
+  "question": "Quais ferramentas de compressão são sem perda (lossless)?",
+  "options": [
+    "JPEG, MP3, MPEG",
+    "bzip2, gzip, xz",
+    "PNG, FLAC, ALAC",
+    "RAR, ZIP, 7z",
+    "PNG, JPEG, GIF"
+  ],
+  "answer": [
+    "bzip2, gzip, xz"
+  ],
+  "feedback": "bzip2, gzip e xz são ferramentas de compressão de dados sem perda. JPEG, MP3, MPEG usam compressão com perda (perdem qualidade/dados para reduzir tamanho). PNG, FLAC e ALAC também são formatos sem perda, mas referem-se a imagens e áudio, não são ferramentas genéricas de compressão de arquivos."
+},
+{
+  "id": 327,
+  "question": "Qual é a ferramenta mais comum para arquivar (agrupar) arquivos no Linux?",
+  "options": [
+    "zip",
+    "tar",
+    "rar",
+    "7z",
+    "gzip"
+  ],
+  "answer": [
+    "tar"
+  ],
+  "feedback": "A ferramenta `tar` (tape archiver) é tradicionalmente a mais usada para criar arquivos agrupados (arquivos .tar). Pode ser combinada com compressores (como gzip, bzip2) para formar arquivos .tar.gz, .tar.bz2 etc."
+},
+{
+  "id": 328,
+  "question": "Qual opção é usada para criar um novo arquivo compactado (arquivo tar) com o comando tar?",
+  "options": [
+    "-x",
+    "-t",
+    "-c",
+    "-r",
+    "-v"
+  ],
+  "answer": [
+    "-c"
+  ],
+  "feedback": "No comando tar, a opção `-c` (create) indica criação de um novo arquivo tar. `-x` extrai, `-t` lista conteúdo, `-r` adiciona arquivos em um tar existente, e `-v` ativa modo verboso."
+},
+{
+  "id": 329,
+  "question": "Qual extensão de arquivo é utilizada para arquivos tar comprimidos com gzip?",
+  "options": [
+    ".tar.bz2",
+    ".tar.gz",
+    ".tar.xz",
+    ".zip",
+    ".tar.Z"
+  ],
+  "answer": [
+    ".tar.gz"
+  ],
+  "feedback": "Um arquivo tar comprimido com gzip geralmente recebe extensão \".tar.gz\" (ou \".tgz\"). Extensões .tar.bz2 e .tar.xz indicam compressão com bzip2 e xz, respectivamente, e .zip é um formato de arquivo diferente."
+},
+{
+  "id": 330,
+  "question": "Qual comando é usado para descompactar um arquivo comprimido com gzip?",
+  "options": [
+    "bunzip2",
+    "unxz",
+    "gunzip",
+    "unzip",
+    "gzip"
+  ],
+  "answer": [
+    "gunzip"
+  ],
+  "feedback": "Para descompactar arquivos .gz usa-se o `gunzip` (ou `gzip -d`). Os comandos bunzip2 e unxz servem para bzip2 e xz respectivamente, e unzip para arquivos .zip."
+},
+{
+  "id": 331,
+  "question": "Qual opção do tar é usada para extrair arquivos?",
+  "options": [
+    "c",
+    "t",
+    "x",
+    "r",
+    "u"
+  ],
+  "answer": [
+    "x"
+  ],
+  "feedback": "A opção `-x` (extract) no tar indica extração de arquivos do arquivo compactado. As outras opções servem para criar (c), listar conteúdo (t), adicionar (r) ou atualizar (u) arquivos no pacote."
+},
+{
+  "id": 332,
+  "question": "Qual ferramenta é usada para criar e extrair arquivos ZIP?",
+  "options": [
+    "tar",
+    "gzip",
+    "zip",
+    "xz",
+    "unzip"
+  ],
+  "answer": [
+    "zip"
+  ],
+  "feedback": "No Linux, arquivos .zip podem ser criados usando o utilitário `zip` e extraídos com `unzip`. O tar/gzip/xz são outras ferramentas de arquivamento/compressão e não operam diretamente no formato .zip."
+},
+{
+  "id": 333,
+  "question": "Qual comando exibe o conteúdo de um arquivo compactado com bzip2 sem precisar descompactá-lo em disco?",
+  "options": [
+    "bunzip2",
+    "bzcat",
+    "zcat",
+    "unxz",
+    "cat"
+  ],
+  "answer": [
+    "bzcat"
+  ],
+  "feedback": "`bzcat` lê um arquivo comprimido com bzip2 e envia seu conteúdo descompactado para a saída padrão (tela). Semelhantemente, `zcat` faz isso para arquivos gzip. Já bunzip2 e unxz descompactam para arquivos em disco."
+},
+{
+  "id": 334,
+  "question": "Qual é o número de canal padrão para entrada padrão (stdin)?",
+  "options": [
+    "Canal 1",
+    "Canal 0",
+    "Canal 2",
+    "Canal 3",
+    "Canal 9"
+  ],
+  "answer": [
+    "Canal 0"
+  ],
+  "feedback": "No UNIX/Linux, por convenção os descritores de arquivos 0, 1 e 2 correspondem respectivamente à entrada padrão (stdin = 0), saída padrão (stdout = 1) e saída de erro padrão (stderr = 2)."
+},
+{
+  "id": 335,
+  "question": "Qual operador é usado para redirecionar a saída padrão para um arquivo (sobrescrevendo-o)?",
+  "options": [
+    "<",
+    ">",
+    "2>",
+    "&>",
+    "|"
+  ],
+  "answer": [
+    ">"
+  ],
+  "feedback": "O símbolo `>` redireciona a saída padrão (descriptor 1) de um comando para um arquivo, sobrescrevendo-o (ou criando se não existir). Já `>>` anexaria em vez de sobrescrever, `<` redireciona entrada, `2>` redireciona erros e `|` conecta a saída de um comando à entrada de outro (pipe)."
+},
+{
+  "id": 336,
+  "question": "Como redirecionar a saída de erro padrão (stderr)?",
+  "options": [
+    ">",
+    "<",
+    "2>",
+    ">>",
+    "->"
+  ],
+  "answer": [
+    "2>"
+  ],
+  "feedback": "Para redirecionar a saída de erro (file descriptor 2) utiliza-se `2>` antes do nome do arquivo de destino. Por exemplo: `comando 2>erros.txt`. Assim, apenas mensagens de erro irão para o arquivo. (Já `&>` redireciona tanto stdout quanto stderr juntos.)"
+},
+{
+  "id": 337,
+  "question": "Qual comando exibe o conteúdo de um arquivo na tela?",
+  "options": [
+    "echo",
+    "cat",
+    "tr",
+    "sort",
+    "wc"
+  ],
+  "answer": [
+    "cat"
+  ],
+  "feedback": "O comando `cat` envia para a saída padrão o conteúdo de um ou mais arquivos passados como argumento. Ele é comumente usado para visualizar rapidamente o conteúdo de arquivos de texto."
+},
+{
+  "id": 338,
+  "question": "O que o operador `>>` faz na linha de comando?",
+  "options": [
+    "Sobrescreve (substitui) o conteúdo de um arquivo com a saída",
+    "Cria um novo arquivo",
+    "Adiciona (concatena) a saída ao final de um arquivo existente",
+    "Redireciona a entrada padrão",
+    "Redireciona saída padrão e de erro juntas"
+  ],
+  "answer": [
+    "Adiciona (concatena) a saída ao final de um arquivo existente"
+  ],
+  "feedback": "`>>` é usado para redirecionar a saída padrão de um comando anexando ao final do arquivo especificado, sem apagar o conteúdo prévio. Já `>` substituiria o conteúdo do arquivo, enquanto as outras descrições não correspondem ao funcionamento de `>>`."
+},
+{
+  "id": 339,
+  "question": "O que o comando `cut` faz?",
+  "options": [
+    "Exibe ou faz link (linka) arquivos",
+    "Remove trechos de cada linha de um arquivo",
+    "Mostra as primeiras 10 linhas de um arquivo",
+    "Mostra um arquivo página por página",
+    "Divide um arquivo grande em partes menores"
+  ],
+  "answer": [
+    "Remove trechos de cada linha de um arquivo"
+  ],
+  "feedback": "O comando `cut` extrai seções de texto de cada linha de um arquivo/texto de entrada, com base em posição ou delimitador. É útil para \"recortar\" colunas de texto. Não serve para paginar, dividir arquivos ou listar conteúdo bruto."
+},
+{
+  "id": 340,
+  "question": "Qual comando exibe as últimas 10 linhas de um arquivo?",
+  "options": [
+    "head",
+    "tail",
+    "less",
+    "cat",
+    "more"
+  ],
+  "answer": [
+    "tail"
+  ],
+  "feedback": "`tail` mostra, por padrão, as 10 últimas linhas de um arquivo de texto. Pode também acompanhar acrescentos em tempo real (com -f). Já o `head` mostra as primeiras linhas."
+},
+{
+  "id": 341,
+  "question": "Como ordenar alfabeticamente o conteúdo de um arquivo em ordem reversa?",
+  "options": [
+    "sort -n",
+    "sort -r",
+    "sort -u",
+    "sort -f",
+    "sort -z"
+  ],
+  "answer": [
+    "sort -r"
+  ],
+  "feedback": "A opção `-r` em `sort` inverte a ordem de classificação (reverse). Assim, `sort -r arquivo` ordena em ordem alfabética inversa. (Observação: -n ordenaria numericamente, -u remove duplicatas, -f ignora maiúsculas/minúsculas.)"
+},
+{
+  "id": 342,
+  "question": "Qual comando conta o número de palavras em um arquivo?",
+  "options": [
+    "cut",
+    "wc",
+    "find",
+    "tail",
+    "grep"
+  ],
+  "answer": [
+    "wc"
+  ],
+  "feedback": "O comando `wc` significa \"word count\" e, sem opções, exibe o número de linhas, palavras e caracteres do arquivo. Com opções pode-se selecionar apenas contagem de palavras (-w). Nenhum dos demais comandos listados realiza contagem de palavras."
+},
+{
+  "id": 343,
+  "question": "Como exibir as primeiras 5 linhas de um arquivo de texto?",
+  "options": [
+    "tail -n 5",
+    "head -n 5",
+    "less -n 5",
+    "cat -n 5",
+    "head 5"
+  ],
+  "answer": [
+    "head -n 5"
+  ],
+  "feedback": "Para mostrar as primeiras N linhas de um arquivo utiliza-se o `head -n N`. Por exemplo, `head -n 5 arquivo` mostrará as 5 primeiras linhas. (tail -n 5 mostraria as 5 últimas linhas.)"
+},
+{
+  "id": 344,
+  "question": "Qual opção torna a busca com o comando `grep` case-insensitive (ignorar maiúsculas/minúsculas)?",
+  "options": [
+    "-r",
+    "-c",
+    "-v",
+    "-i",
+    "-n"
+  ],
+  "answer": [
+    "-i"
+  ],
+  "feedback": "A opção `-i` faz o grep ignorar diferenças entre maiúsculas e minúsculas na busca. Por exemplo, grep -i \"linux\" encontraria \"Linux\", \"LINUX\" etc."
+},
+{
+  "id": 345,
+  "question": "Qual opção faz o `grep` contar o número de ocorrências (linhas encontradas) ao invés de listá-las?",
+  "options": [
+    "-r",
+    "-c",
+    "-v",
+    "-i",
+    "-l"
+  ],
+  "answer": [
+    "-c"
+  ],
+  "feedback": "Usar `-c` faz com que o grep exiba apenas a contagem de linhas que corresponderam ao padrão, em vez de listar as linhas. As outras opções: -r busca recursiva, -v inverte a busca, -i ignora maiúsculas/minúsculas, -l lista nomes de arquivos com ocorrências."
+},
+{
+  "id": 346,
+  "question": "Quais metacaracteres em expressões regulares indicam respectivamente o início e o fim de uma linha?",
+  "options": [
+    "^ e $",
+    ". e *",
+    "[ e ]",
+    "+ e ?",
+    "( e )"
+  ],
+  "answer": [
+    "^ e $"
+  ],
+  "feedback": "Em regex, o acento circunflexo ^ representa o início da linha, e o cifrão $ representa o final da linha. Por exemplo, `^abc$` casa apenas linhas que sejam exatamente \"abc\"."
+},
+{
+  "id": 347,
+  "question": "Qual opção habilita o uso de expressões regulares estendidas no `grep`?",
+  "options": [
+    "-i",
+    "-r",
+    "-E",
+    "-v",
+    "-F"
+  ],
+  "answer": [
+    "-E"
+  ],
+  "feedback": "A opção `-E` faz o grep usar ERE (Expressões Regulares Estendidas), permitindo metacaracteres como +, ? e | sem escape. (Alternativamente pode-se usar o comando `egrep`, equivalente a grep -E.)"
+},
+{
+  "id": 348,
+  "question": "O que o comando `grep` faz?",
+  "options": [
+    "Substitui caracteres em um arquivo",
+    "Procura por ocorrências de uma sequência de caracteres em um arquivo",
+    "Copia arquivos",
+    "Move arquivos",
+    "Encontra arquivos pelo nome"
+  ],
+  "answer": [
+    "Procura por ocorrências de uma sequência de caracteres em um arquivo"
+  ],
+  "feedback": "O grep (Global Regular Expression Print) lê a entrada ou arquivo e imprime as linhas que correspondem a um padrão de busca (texto ou regex). É a ferramenta básica de busca de texto em arquivos. Não copia/move arquivos nem altera seu conteúdo."
+},
+{
+  "id": 349,
+  "question": "Como usar o `grep` para buscar linhas que terminam com pelo menos um `e`?",
+  "options": [
+    "grep '^e+'",
+    "grep 'e+$'",
+    "grep 'e*$'",
+    "grep '^e*$'",
+    "grep 'e$'"
+  ],
+  "answer": [
+    "grep 'e+$'"
+  ],
+  "feedback": "A regex `e+$` significa \"uma ou mais letras 'e' seguidas do fim da linha\". Isso garante que a linha termine em pelo menos um 'e'. (Obs: '^' marca início da linha. Por exemplo, `^e` começaria com 'e'.)"
+},
+{
+  "id": 350,
+  "question": "Como contar, usando grep, o número de linhas que começam com zero ou um `c` seguido da sequência `ati`?",
+  "options": [
+    "grep -c '^ati'",
+    "grep -cE '^c?ati'",
+    "grep -c 'ati$'",
+    "grep -c '^cati'",
+    "grep -cE '^c*ati'"
+  ],
+  "answer": [
+    "grep -cE '^c?ati'"
+  ],
+  "feedback": "`^c?ati` em regex estendida significa: início de linha seguido de opcionalmente um 'c', seguido de \"ati\". Assim cobre linhas que começam com \"ati\" ou \"cati\". A opção -c faz o grep contar as linhas correspondentes."
+},
+{
+  "id": 351,
+  "question": "Como usar o `grep` para buscar linhas contendo a string `cat` em qualquer parte?",
+  "options": [
+    "grep '^cat'",
+    "grep 'cat$'",
+    "grep 'cat'",
+    "grep '^cat$'",
+    "grep -w 'cat'"
+  ],
+  "answer": [
+    "grep 'cat'"
+  ],
+  "feedback": "Para encontrar \"cat\" em qualquer lugar da linha, basta `grep 'cat' arquivo`. As alternativas com ^ ou $ restringem a posição (início/fim) e -w faria correspondências somente se 'cat' fosse uma palavra isolada."
+},
+{
+  "id": 352,
+  "question": "O que é um script?",
+  "options": [
+    "Um arquivo executável contendo comandos",
+    "Um editor de texto",
+    "Um diretório",
+    "Um tipo de arquivo específico do sistema",
+    "Uma linguagem de programação"
+  ],
+  "answer": [
+    "Um arquivo executável contendo comandos"
+  ],
+  "feedback": "Um script é um arquivo de texto contendo uma sequência de comandos que podem ser executados (geralmente interpretados por um shell ou outra linguagem interpretada)."
+},
+{
+  "id": 353,
+  "question": "Como tornar um arquivo executável?",
+  "options": [
+    "Com o comando `chmod +x`",
+    "Com o comando `ls -l`",
+    "Com o comando `echo $PATH`",
+    "Com o comando `cat`",
+    "Com o comando `chmod 777`"
+  ],
+  "answer": [
+    "Com o comando `chmod +x`"
+  ],
+  "feedback": "Para dar permissão de execução a um arquivo, usa-se chmod +x nomedoarquivo. Isso adiciona o bit de execução. (chmod 777 também daria execução, mas junto com outras permissões desnecessárias; +x é o método adequado.)"
+},
+{
+  "id": 354,
+  "question": "Qual é a finalidade da variável de ambiente PATH?",
+  "options": [
+    "Especificar diretórios onde buscar comandos executáveis",
+    "Listar arquivos em um diretório",
+    "Exibir o conteúdo de um arquivo",
+    "Mover um arquivo para outro diretório",
+    "Definir o prompt do shell"
+  ],
+  "answer": [
+    "Especificar diretórios onde buscar comandos executáveis"
+  ],
+  "feedback": "A variável PATH contém uma lista de diretórios que o shell percorre para encontrar os executáveis dos comandos digitados. Se um comando não está em um desses diretórios, ele não é encontrado (a menos que seja chamado com caminho explícito)."
+},
+{
+  "id": 355,
+  "question": "Como se atribui um valor a uma variável no Bash?",
+  "options": [
+    "Com o sinal de igual (=) sem espaços ao redor",
+    "Colocando o valor entre aspas duplas",
+    "Com o comando `echo`",
+    "Com o comando `cat`",
+    "Precedendo o nome com `$`"
+  ],
+  "answer": [
+    "Com o sinal de igual (=) sem espaços ao redor"
+  ],
+  "feedback": "No Bash, para criar/atribuir uma variável, use o formato VARIAVEL=valor. Não devem existir espaços antes ou depois do '='. Aspas podem envolver o valor se ele tiver espaços, mas não são obrigatórias se o valor for uma única palavra (sem espaços)."
+},
+{
+  "id": 356,
+  "question": "O que o comando `echo` faz?",
+  "options": [
+    "Altera as permissões de um arquivo",
+    "Imprime uma cadeia de caracteres (string) na saída padrão",
+    "Mostra o caminho absoluto de um comando",
+    "Lista todas as variáveis de ambiente",
+    "Mostra a hora atual do sistema"
+  ],
+  "answer": [
+    "Imprime uma cadeia de caracteres (string) na saída padrão"
+  ],
+  "feedback": "`echo` é usado para exibir texto. Por exemplo, `echo Olá` irá imprimir \"Olá\" no terminal. Não altera permissões nem lista variáveis ou hora."
+},
+{
+  "id": 357,
+  "question": "Qual comando mostra o caminho absoluto de um comando executável?",
+  "options": [
+    "chmod",
+    "which",
+    "env",
+    "echo",
+    "locate"
+  ],
+  "answer": [
+    "which"
+  ],
+  "feedback": "O comando `which nome_comando` retorna o caminho completo do executável que seria executado ao invocar esse comando (de acordo com o PATH). Por exemplo, `which ls` pode retornar \"/bin/ls\"."
+},
+{
+  "id": 358,
+  "question": "Qual é o nome de dispositivo (device file) correspondente à partição 3 do terceiro disco SATA?",
+  "options": [
+    "/dev/sd3p3",
+    "/dev/sdc3",
+    "/dev/sdcp3",
+    "/dev/sda3",
+    "/dev/hdc3"
+  ],
+  "answer": [
+    "/dev/sdc3"
+  ],
+  "feedback": "Discos SATA são nomeados /dev/sda, /dev/sdb, /dev/sdc, etc. O terceiro disco seria /dev/sdc e sua terceira partição, /dev/sdc3. (/dev/sda3 seria partição 3 do primeiro disco, por exemplo.)"
+},
+{
+  "id": 359,
+  "question": "Qual dos seguintes é um conceito poderoso do Linux referente ao tratamento de recursos?",
+  "options": [
+    "Tudo é um arquivo",
+    "Tudo é um diretório",
+    "Tudo é um processo",
+    "Tudo é o kernel",
+    "Tudo é um comando"
+  ],
+  "answer": [
+    "Tudo é um arquivo"
+  ],
+  "feedback": "No UNIX/Linux prevalece o princípio de que \"tudo é arquivo\" — portas de E/S, dispositivos, configurações, etc., são acessados como se fossem arquivos, o que traz grande uniformidade na forma de manipulação."
+},
+{
+  "id": 360,
+  "question": "Onde ficam armazenados os arquivos binários importantes de administração do sistema?",
+  "options": [
+    "/bin",
+    "/sbin",
+    "/usr/bin",
+    "/usr/local/bin",
+    "/etc"
+  ],
+  "answer": [
+    "/sbin"
+  ],
+  "feedback": "Arquivos de programas essenciais ao sistema e administração costumam estar em /sbin (ou /usr/sbin). Por exemplo, comandos de manutenção que exigem root costumam residir lá. /bin e /usr/bin abrigam binários de uso geral."
+},
+{
+  "id": 361,
+  "question": "O que o arquivo `/proc/cpuinfo` armazena?",
+  "options": [
+    "Configurações do kernel",
+    "Informações de hardware do sistema",
+    "Informações sobre a CPU",
+    "Configuração de rede",
+    "Informações da memória RAM"
+  ],
+  "answer": [
+    "Informações sobre a CPU"
+  ],
+  "feedback": "O arquivo virtual /proc/cpuinfo contém detalhes dos processadores (CPU) do sistema, como modelo, núcleos, velocidade etc. Já informações gerais de hardware podem estar distribuídas em diversos arquivos em /proc ou /sys."
+},
+{
+  "id": 362,
+  "question": "Qual arquivo (em /boot) contém as configurações habilitadas do kernel compilado (configurações do kernel)?",
+  "options": [
+    "vmlinuz-5.10.0-14-amd64",
+    "initrd.img-5.10.0-14-amd64",
+    "System.map-5.10.0-14-amd64",
+    "config-5.10.0-14-amd64",
+    "grub.cfg"
+  ],
+  "answer": [
+    "config-5.10.0-14-amd64"
+  ],
+  "feedback": "O arquivo /boot/config-<versão_do_kernel> contém todas as opções de configuração com que aquele kernel foi compilado (CONFIG_*). vmlinuz é a imagem binária do kernel, initrd é o disco de inicialização e System.map mapeia símbolos do kernel."
+},
+{
+  "id": 363,
+  "question": "Qual a finalidade do arquivo especial `/dev/null`?",
+  "options": [
+    "Gerar números pseudoaleatórios",
+    "Descartar todas as informações enviadas para ele",
+    "Fornecer caracteres nulos",
+    "Armazenar módulos do kernel",
+    "Armazenar logs do sistema"
+  ],
+  "answer": [
+    "Descartar todas as informações enviadas para ele"
+  ],
+  "feedback": "O device /dev/null atua como um \"buraco negro\": tudo que é escrito nele é descartado. É útil para descartar saídas de comandos ou como destino padrão para informações que se deseja ignorar."
+},
+{
+  "id": 364,
+  "question": "Onde são armazenados os programas instalados pelo usuário (fora dos pacotes padrão do sistema)?",
+  "options": [
+    "/etc",
+    "/usr/local",
+    "/home",
+    "/opt",
+    "/usr"
+  ],
+  "answer": [
+    "/usr/local"
+  ],
+  "feedback": "Programas instalados localmente pelo administrador, ou compilados manualmente, costumam ser colocados em /usr/local (com subdiretórios bin, lib, etc. próprios), separando-os daqueles gerenciados pelo sistema (em /usr). /opt também pode ser usado para alguns aplicativos de terceiros."
+},
+{
+  "id": 365,
+  "question": "Qual é a função do kernel Linux?",
+  "options": [
+    "Excluir arquivos",
+    "Gerenciar conexões de rede",
+    "Autenticar usuários",
+    "Alocar recursos do sistema para os processos",
+    "Iniciar a interface gráfica do usuário"
+  ],
+  "answer": [
+    "Alocar recursos do sistema para os processos"
+  ],
+  "feedback": "O kernel é o núcleo do sistema operacional, responsável por gerenciar recursos (CPU, memória, I/O) e mediá-los entre os processos. Ele também controla dispositivos de hardware e funcionalidades de baixo nível do sistema."
+},
+{
+  "id": 366,
+  "question": "Onde fica localizado (montado) o kernel Linux no sistema de arquivos?",
+  "options": [
+    "/usr/bin",
+    "/etc",
+    "/home",
+    "/boot",
+    "/root"
+  ],
+  "answer": [
+    "/boot"
+  ],
+  "feedback": "Os arquivos do kernel (vmlinuz e arquivos relacionados) residem tipicamente em /boot. Durante a inicialização, o bootloader carrega o kernel a partir daí. Diretórios como /etc, /usr/bin ou /home não armazenam o kernel em si."
+},
+{
+  "id": 367,
+  "question": "O que o comando `top` exibe?",
+  "options": [
+    "Uma lista estática de todos os processos em execução",
+    "Uma lista dinâmica de processos em execução, atualizada em tempo real",
+    "Uma lista de todos os pacotes instalados",
+    "Uma lista de todos os usuários do sistema",
+    "Uma lista de todos os arquivos abertos"
+  ],
+  "answer": [
+    "Uma lista dinâmica de processos em execução, atualizada em tempo real"
+  ],
+  "feedback": "O `top` mostra os processos ativos e informações do sistema em tempo real, atualizando periodicamente (por padrão a cada poucos segundos). Já o comando `ps` daria um snapshot estático do momento da execução."
+},
+{
+  "id": 368,
+  "question": "O que o comando `ps` exibe?",
+  "options": [
+    "Informações dinâmicas (em tempo real) sobre processos",
+    "Informações estáticas (congeladas no momento) sobre processos",
+    "Informações sobre pacotes instalados",
+    "Informações sobre usuários logados",
+    "Informações sobre a rede"
+  ],
+  "answer": [
+    "Informações estáticas (congeladas no momento) sobre processos"
+  ],
+  "feedback": "O `ps` mostra um instantâneo dos processos no momento em que é executado (por exemplo, lista de processos em determinado estado). Diferente do `top`, ele não se atualiza continuamente."
+},
+{
+  "id": 369,
+  "question": "Qual tecla, dentro do `top`, é usada para ordenar a lista de processos por uso de memória?",
+  "options": [
+    "P",
+    "N",
+    "M",
+    "T",
+    "C"
+  ],
+  "answer": [
+    "M"
+  ],
+  "feedback": "No top, pressionar 'M' faz ordenar os processos pelo uso de memória (RAM). Já 'P' ordena por uso de CPU, 'T' por tempo de execução, etc."
+},
+{
+  "id": 370,
+  "question": "O que é o PID de um processo?",
+  "options": [
+    "Um número inteiro negativo",
+    "Um número sequencial único",
+    "Um número inteiro positivo",
+    "Um número aleatório",
+    "Uma combinação de letras e números"
+  ],
+  "answer": [
+    "Um número inteiro positivo"
+  ],
+  "feedback": "O PID (Process IDentifier) é um número inteiro positivo que identifica unicamente um processo em execução no sistema. Em sistemas atuais, geralmente são atribuídos sequencialmente conforme processos nascem, mas podem não ser estritamente consecutivos devido a finalizações e reutilização de IDs."
+},
+{
+  "id": 371,
+  "question": "Qual comando exibe a carga do sistema (load average)?",
+  "options": [
+    "uptime",
+    "ps",
+    "top",
+    "dmesg",
+    "free"
+  ],
+  "answer": [
+    "uptime"
+  ],
+  "feedback": "O comando `uptime` mostra há quanto tempo o sistema está ligado e fornece as médias de carga (load average) dos últimos 1, 5 e 15 minutos. Comandos como ps, top ou free mostram outras informações de processos ou memória, mas o load average aparece direto no uptime (e também no cabeçalho do top)."
+},
+{
+  "id": 372,
+  "question": "Qual é a função do diretório especial `/proc`?",
+  "options": [
+    "Conter arquivos de configuração do sistema",
+    "Conter arquivos dos usuários",
+    "Conter diretórios para cada processo em execução, nomeados pelo seu PID",
+    "Conter arquivos de log do sistema",
+    "Conter arquivos executáveis do sistema"
+  ],
+  "answer": [
+    "Conter diretórios para cada processo em execução, nomeados pelo seu PID"
+  ],
+  "feedback": "O /proc é um sistema de arquivos virtual que expõe informações do kernel e dos processos. Dentro dele há diretórios numerados correspondentes a cada processo vivo (nomeados pelo PID), contendo informações e estatísticas de cada processo."
+},
+{
+  "id": 373,
+  "question": "Qual usuário possui privilégios administrativos ilimitados em um sistema Linux?",
+  "options": [
+    "usuário \"root\"",
+    "usuário \"admin\"",
+    "usuário \"user\"",
+    "usuário \"guest\"",
+    "usuário \"daemon\""
+  ],
+  "answer": [
+    "usuário \"root\""
+  ],
+  "feedback": "O usuário root é o superusuário no Linux, com permissão irrestrita sobre o sistema. Termos como \"admin\" ou outros usuários comuns não detêm esses privilégios a não ser que sejam equiparados ao root (por exemplo, via sudo)."
+},
+{
+  "id": 374,
+  "question": "Qual UID (identificador de usuário) é atribuído ao superusuário root no Linux?",
+  "options": [
+    "0",
+    "1",
+    "100",
+    "1000",
+    "1024"
+  ],
+  "answer": [
+    "0"
+  ],
+  "feedback": "Por convenção, o usuário root sempre tem UID 0 no Linux/Unix. Outros usuários recebem UIDs positivos crescentes (1, 100, 1000 etc., dependendo da distribuição)."
+},
+{
+  "id": 375,
+  "question": "Qual comando é usado para excluir uma conta de usuário?",
+  "options": [
+    "useradd",
+    "passwd",
+    "userdel",
+    "groupdel",
+    "deluser"
+  ],
+  "answer": [
+    "userdel"
+  ],
+  "feedback": "Para remover uma conta de usuário utiliza-se o comando `userdel nome_do_usuario`. Algumas distribuições fornecem também o script `deluser`, mas internamente ele costuma chamar userdel. Os demais comandos listados têm outras funções (useradd adiciona, passwd altera senha, groupdel remove grupo)."
+},
+{
+  "id": 376,
+  "question": "Qual comando cria uma nova conta de usuário?",
+  "options": [
+    "groupadd",
+    "useradd",
+    "userdel",
+    "passwd",
+    "adduser"
+  ],
+  "answer": [
+    "useradd"
+  ],
+  "feedback": "O comando `useradd` insere uma nova conta de usuário no sistema. Em algumas distros há um script `adduser` que interage de forma amigável, mas este utiliza useradd por baixo."
+},
+{
+  "id": 377,
+  "question": "Qual comando é usado para criar um novo grupo de usuários?",
+  "options": [
+    "groupadd",
+    "useradd",
+    "groupdel",
+    "passwd",
+    "usermod"
+  ],
+  "answer": [
+    "groupadd"
+  ],
+  "feedback": "`groupadd nome_do_grupo` cria um novo grupo no sistema. Analogamente, `groupdel` remove grupos, useradd/userdel fazem operações com usuários, e usermod modifica atributos de usuários existentes."
+},
+{
+  "id": 378,
+  "question": "Que informação o primeiro caractere na saída de `ls -l` indica?",
+  "options": [
+    "Tamanho do arquivo",
+    "Tipo de arquivo",
+    "Data da última modificação",
+    "Nome do arquivo",
+    "Proprietário do arquivo"
+  ],
+  "answer": [
+    "Tipo de arquivo"
+  ],
+  "feedback": "Na listagem longa do ls (-l), o primeiro caractere de cada linha indica o tipo do item listado: por exemplo, '-' para arquivo regular, 'd' para diretório, 'l' para link simbólico, 'c' para dispositivo de caractere etc."
+},
+{
+  "id": 379,
+  "question": "O que significa a permissão \"r\" em um arquivo?",
+  "options": [
+    "Escrita (write)",
+    "Leitura (read)",
+    "Execução (execute)",
+    "Exclusão (delete)",
+    "Renomear (rename)"
+  ],
+  "answer": [
+    "Leitura (read)"
+  ],
+  "feedback": "Nos modos de permissão, \"r\" indica direito de leitura do arquivo. \"w\" indica escrita e \"x\" execução. Não há permissões específicas para excluir ou renomear - essas ações dependem de permissões de escrita no diretório que contém o arquivo."
+},
+{
+  "id": 380,
+  "question": "O que significa a permissão \"x\" em um arquivo?",
+  "options": [
+    "Leitura (read)",
+    "Escrita (write)",
+    "Execução (execute)",
+    "Sticky bit",
+    "Arquivo oculto"
+  ],
+  "answer": [
+    "Execução (execute)"
+  ],
+  "feedback": "\"x\" em um arquivo significa que ele pode ser executado (se for um programa ou script). Para diretórios, \"x\" significa permissão de atravessar/entrar no diretório. 'Sticky bit' é representado por 't' e não tem relação com o 'x' comum."
+},
+{
+  "id": 381,
+  "question": "Qual comando altera as permissões de um arquivo?",
+  "options": [
+    "ls",
+    "chmod",
+    "chown",
+    "chgrp",
+    "chperm"
+  ],
+  "answer": [
+    "chmod"
+  ],
+  "feedback": "Para modificar as permissões (modos de acesso) de um arquivo ou diretório usa-se o comando `chmod`. O comando chown altera dono, chgrp altera grupo, e 'chperm' não existe."
+},
+{
+  "id": 382,
+  "question": "Qual comando altera o proprietário (dono) de um arquivo?",
+  "options": [
+    "ls",
+    "chmod",
+    "chown",
+    "chgrp",
+    "chuser"
+  ],
+  "answer": [
+    "chown"
+  ],
+  "feedback": "O comando `chown usuario:grupo arquivo` altera o proprietário de um arquivo e/ou seu grupo. Para alterar apenas o grupo existe o `chgrp`. Não há comando chamado chuser; chmod atua em permissões, não em propriedade."
+},
+{
+  "id": 383,
+  "question": "Qual comando altera o grupo proprietário de um arquivo?",
+  "options": [
+    "ls",
+    "chmod",
+    "chown",
+    "chgrp",
+    "groupmod"
+  ],
+  "answer": [
+    "chgrp"
+  ],
+  "feedback": "`chgrp grupo arquivo` muda o grupo associado ao arquivo, sem alterar o dono. Alternativamente, `chown user:grupo arquivo` também poderia mudar o grupo simultaneamente ao dono. Os demais comandos não realizam essa função."
+},
+{
+  "id": 384,
+  "question": "Que permissões (forma simbólica) um arquivo com modo numérico 754 possui?",
+  "options": [
+    "rwxr-xr-x",
+    "rwxr-xr--",
+    "rwxrwxr--",
+    "rwxr-x--x",
+    "rwxr--r--"
+  ],
+  "answer": [
+    "rwxr-xr--"
+  ],
+  "feedback": "754 em representação simbólica corresponde a rwx (7) para o dono, r-x (5) para o grupo, e r-- (4) para outros. Assim, rwxr-xr--."
+},
+{
+  "id": 385,
+  "question": "O que significa o bit SGID em um arquivo executável?",
+  "options": [
+    "O arquivo será executado com os privilégios do dono (usuário proprietário)",
+    "O arquivo será executado com as permissões do grupo proprietário",
+    "O arquivo será executado com as permissões de quem o criou",
+    "O arquivo será executado com privilégios de sistema (kernel)",
+    "O arquivo só pode ser executado pelo proprietário"
+  ],
+  "answer": [
+    "O arquivo será executado com as permissões do grupo proprietário"
+  ],
+  "feedback": "Em arquivos executáveis, o bit SGID faz com que o processo resultante tenha o GID efetivo igual ao grupo do arquivo, em vez do grupo do usuário que o executou. (Analogamente, o SUID faz algo similar com o usuário/dono do arquivo.)"
+},
+{
+  "id": 386,
+  "question": "O que significa um 'S' maiúsculo em uma permissão como `rwSr-xr-x`?",
+  "options": [
+    "Que o dono tem permissão de execução e o bit SUID está setado",
+    "Que o dono NÃO tem permissão de execução, mas o bit SUID está setado",
+    "Que o grupo tem permissão de execução e o bit SGID está setado",
+    "Que o grupo NÃO tem permissão de execução, mas o bit SGID está setado",
+    "Que o bit sticky está setado sem permissão de execução"
+  ],
+  "answer": [
+    "Que o dono NÃO tem permissão de execução, mas o bit SUID está setado"
+  ],
+  "feedback": "Na máscara de permissões, uma letra 'S' maiúscula na posição de execução do dono indica que o SUID está ativado, porém o próprio dono não tem permissão de executar aquele arquivo (caso contrário, seria letra minúscula 's')."
+},
+{
+  "id": 387,
+  "question": "O que são arquivos temporários?",
+  "options": [
+    "Dados que são armazenados permanentemente",
+    "Dados de que se precisa apenas por um curto período",
+    "Dados que nunca são excluídos",
+    "Dados usados apenas por administradores",
+    "Dados mantidos somente na memória RAM"
+  ],
+  "answer": [
+    "Dados de que se precisa apenas por um curto período"
+  ],
+  "feedback": "Arquivos temporários guardam informações transitórias, úteis somente durante um curto intervalo ou sessão. Eles costumam ser apagados automaticamente após algum tempo ou durante a inicialização para liberar espaço."
+},
+{
+  "id": 388,
+  "question": "Qual diretório é limpo automaticamente durante a inicialização do sistema?",
+  "options": [
+    "/var/tmp",
+    "/home/tmp",
+    "/run",
+    "/usr/tmp",
+    "/tmp"
+  ],
+  "answer": [
+    "/run"
+  ],
+  "feedback": "O diretório /run (antigo /var/run) é montado a cada inicialização (geralmente como tmpfs) e inicia vazio, portanto seu conteúdo é volatil e reiniciado a cada boot. Já /tmp pode ou não ser limpo no boot dependendo da configuração (muitas distros também o limpam, mas por padrão /var/tmp preserva arquivos temporários entre boots)."
+},
+{
+  "id": 389,
+  "question": "Como o sticky bit é representado nas permissões de um arquivo ou diretório?",
+  "options": [
+    "x",
+    "s",
+    "t",
+    "r",
+    "w"
+  ],
+  "answer": [
+    "t"
+  ],
+  "feedback": "O sticky bit aparece como uma letra 't' nas permissões (na posição de \"execução\" para outros). Em diretórios com sticky bit, apenas o dono ou root pode excluir/renomear arquivos, mesmo que outros tenham permissão de escrita no diretório (ex: /tmp)."
+},
+{
+  "id": 390,
+  "question": "Qual comando cria um link simbólico (soft link)?",
+  "options": [
+    "ln -h",
+    "ln -l",
+    "ln -s",
+    "ln -t",
+    "ln -soft"
+  ],
+  "answer": [
+    "ln -s"
+  ],
+  "feedback": "O comando `ln -s alvo link_nome` cria um link simbólico apontando para o alvo especificado. As outras opções mostradas não correspondem a sintaxes válidas para criar links."
+},
+{
+  "id": 391,
+  "question": "O que é um hard link?",
+  "options": [
+    "Uma cópia duplicada do arquivo original",
+    "Uma entrada adicional no sistema de arquivos que aponta para a mesma localização no disco",
+    "Um link simbólico (atalho) para o arquivo",
+    "Um link temporário",
+    "Uma cópia de segurança do arquivo original"
+  ],
+  "answer": [
+    "Uma entrada adicional no sistema de arquivos que aponta para a mesma localização no disco"
+  ],
+  "feedback": "Um hard link é essencialmente um nome adicional para o mesmo arquivo (mesma posição no disco). Arquivo original e hard link são indistinguíveis — é o mesmo conteúdo com duas referências no sistema de arquivos. Já links simbólicos são ponteiros separados para o original."
+},
+{
+  "id": 392,
+  "question": "Onde devem ser criados arquivos temporários de aplicativos pelo sistema ou usuários?",
+  "options": [
+    "/var/tmp",
+    "/tmp",
+    "/home/tmp",
+    "/usr/tmp",
+    "No diretório home do usuário"
+  ],
+  "answer": [
+    "/tmp"
+  ],
+  "feedback": "O diretório padrão para arquivos temporários de curta duração é /tmp. Aplicativos costumam usar /tmp para arquivos que podem ser descartados rapidamente. /var/tmp é para temporários de longa duração (não limpos no boot)."
+},
+{
+  "id": 393,
+  "question": "Qual parâmetro deve ser utilizado com `chmod` para ativar o sticky bit em um arquivo ou diretório?",
+  "options": [
+    "+s",
+    "+x",
+    "+t",
+    "+r",
+    "-t"
+  ],
+  "answer": [
+    "+t"
+  ],
+  "feedback": "Para setar o sticky bit via chmod, usa-se `chmod +t nome_do_diretorio`. Isso ativará o sticky bit (representado como 't' nas permissões). Por exemplo, `chmod 1777 dir` também funcionaria, já que o 1 no primeiro dígito de 4 representa sticky."
+},
+{
+  "id": 394,
+  "question": "O que acontece com um link simbólico (soft link) se o arquivo-alvo for excluído?",
+  "options": [
+    "O link simbólico permanece funcional, apontando para nada",
+    "O link simbólico será atualizado automaticamente para um novo destino",
+    "O link simbólico deixa de funcionar (fica quebrado)",
+    "O link simbólico é convertido em um link físico (hard link)",
+    "O link simbólico é removido automaticamente"
+  ],
+  "answer": [
+    "O link simbólico deixa de funcionar (fica quebrado)"
+  ],
+  "feedback": "Se o arquivo de destino for removido ou renomeado, o link simbólico que apontava para ele torna-se um 'link quebrado', apontando para um caminho inexistente. Ele não é deletado automaticamente nem se converte em outro tipo de link."
+}
+]

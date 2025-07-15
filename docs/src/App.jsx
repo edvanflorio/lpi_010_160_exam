@@ -66,9 +66,11 @@ const App = () => {
 
 
   useEffect(() => {
-    let fetchUrl = "https://raw.githubusercontent.com/Noam-Alum/lpi_010_160_exam/refs/heads/main/lpi/";
-    fetchUrl += window.location.href.includes("/lpi_010_160_exam/extended") ? "lpi_exercise_questions.json" : "lpi_questions.json";
-
+    let fetchUrl = "/lpi/";
+    fetchUrl += window.location.href.includes("extended")
+      ? "lpi_exercise_questions.json"
+      : "lpi_questions.json";
+      
     fetch(fetchUrl)
       .then((res) => res.json())
       .then((data) => {
@@ -147,18 +149,18 @@ const App = () => {
 
     return (
       <div className="text-center p-6">
-        <h1 className="text-3xl font-bold">Exam Completed</h1>
+        <h1 className="text-3xl font-bold">Exame Completado</h1>
         <div className="mt-10 p-6 bg-yellow-100 text-black rounded-lg shadow-lg max-w-xl mx-auto">
-          <h2 className="text-2xl font-bold mb-2">Support This Project ❤️</h2>
+          <h2 className="text-2xl font-bold mb-2">AJude esse Projeto ❤️</h2>
           <p className="mb-3">
-            This exam simulator is maintained by one person. If it helped you prepare, please consider
-            <a href="https://github.com/sponsors/Noam-Alum" className="underline font-semibold hover:text-purple-700"> sponsoring the developer</a>.
+            Este simulador de prova é mantido por uma única pessoa. Se ele te ajudou a se preparar, por favor, considere apoiar o projeto
+            <a href="https://github.com/sponsors/edvanflorio" className="underline font-semibold hover:text-purple-700"> sponsoring the developer</a>.
           </p>
           <p className="mb-1">
-            Found a bug or suggestion? Open an issue on
-            <a href="https://github.com/Noam-Alum/lpi_010_160_exam/issues" className="underline font-semibold hover:text-blue-700"> GitHub</a>.
+            Achou bug ou sugestão? Abra um issue
+            <a href="https://github.com/edvanflorio/lpi_010_160_exam/issues" className="underline font-semibold hover:text-blue-700"> GitHub</a>.
           </p>
-          <p className="mt-3">I hope you do well on the actual exam 🙃<br />Contact: <a href="mailto:nnoam.alum@gmail.com" className="underline font-semibold hover:text-blue-700">nnoam.alum@gmail.com</a></p>
+          <p className="mt-3">Eu espero que você vá bem no exame 🙃<br />Contact: <a href="mailto:nnoam.alum@gmail.com" className="underline font-semibold hover:text-blue-700">edvansilva0511@gmail.com</a></p>
         </div>
         <p className="text-lg mt-6">You answered {correctAnswersCount} out of {totalQuestions} questions correctly.</p>
         <div className="w-64 mx-auto mt-6">
@@ -207,7 +209,7 @@ const App = () => {
   return (
     <div className="flex flex-col items-center min-h-screen bg-gray-900 text-white px-2 sm:px-6 py-6 w-full">
       <h1 className="text-4xl font-bold mb-6">
-        <a href="https://github.com/Noam-Alum/lpi_010_160_exam/">LPI Practice Exam</a>
+        <a href="https://github.com/edvanflorio/lpi_010_160_exam">LPI Practice Exam</a>
       </h1>
       <p className="text-xl font-bold mb-6">Made with ❤️</p>
       <div className="w-full max-w-2xl bg-gray-800 p-6 rounded-lg shadow-lg overflow-x-auto">
@@ -257,12 +259,12 @@ const App = () => {
           </button>
         </div>
         {showAnswer && (
-          <div className="mt-4 p-4 bg-white text-black rounded-md">
+          <div className="mt-4 p-4 bg-white text-black rounded-md space-y-4">
             {isCorrect ? (
-              <div className="text-green-600">Correct!</div>
+              <div className="text-green-600 font-semibold">Correct!</div>
             ) : (
               <div className="text-red-600">
-                <p>Incorrect! The correct answers are:</p>
+                <p className="font-semibold">Incorrect! The correct answers are:</p>
                 <ul className="list-disc list-inside mt-2">
                   {currentQuestion.answer.map((answer, idx) => (
                     <li key={idx}>{renderFormattedText(answer)}</li>
@@ -270,11 +272,16 @@ const App = () => {
                 </ul>
               </div>
             )}
+            {currentQuestion.feedback && (
+              <div className="bg-gray-100 text-gray-800 p-3 rounded shadow-sm">
+                <strong>Feedback:</strong> {currentQuestion.feedback}
+              </div>
+            )}
           </div>
         )}
       </div>
       <div className="mb-6 text-sm bg-yellow-500 text-black px-4 py-2 rounded shadow-lg mt-6">
-        Enjoying this tool? <a href="https://github.com/sponsors/Noam-Alum" className="underline font-semibold hover:text-white">Consider sponsoring the project</a>. ❤️
+        Gostou dessa ferramenta?<a href="https://github.com/sponsors/edvanflorio" className="underline font-semibold hover:text-white">Considere patrocinar o projeto.</a>. ❤️
       </div>
     </div>
   );
