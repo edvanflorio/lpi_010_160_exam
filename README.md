@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/github/license/edvanflorio/lpi_010_160_exam)](LICENSE)
 
 Este projeto é um **simulador de exame LPI Linux Essentials (010-160)** totalmente em **português**, com ênfase em usabilidade, acessibilidade e aprendizado com **feedback explicativo**.  
+
 Foi baseado no repositório original [Noam-Alum/lpi_010_160_exam](https://github.com/Noam-Alum/lpi_010_160_exam), mas passou por melhorias significativas descritas abaixo.
 
 ---
