@@ -10,7 +10,7 @@ Foi baseado no repositório original [Noam-Alum/lpi_010_160_exam](https://github
 
 ## ✅ Principais melhorias
 
-- 🌐 QUestões traduzidas completamente para **português**.
+- 🌐 Questões traduzidas completamente para **português**.
 - 🧠 Adição de **148 questões oficiais** baseadas no livro *LPI Essentials*.
 - 📘 Cada questão agora conta com **campo de feedback**, explicando o porquê da resposta correta.
 - 🐳 Adição de **stack Docker completa**:
