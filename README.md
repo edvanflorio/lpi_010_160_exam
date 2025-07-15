@@ -1,4 +1,3 @@
-````markdown
 # Simulador LPI Linux Essentials (010-160) 🇧🇷
 
 Este projeto é um **simulador de exame LPI Linux Essentials (010-160)** totalmente em **português**, com ênfase em usabilidade, acessibilidade e aprendizado com **feedback explicativo**.  
