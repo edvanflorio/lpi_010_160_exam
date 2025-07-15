@@ -23,14 +23,51 @@ Foi baseado no repositório original [Noam-Alum/lpi_010_160_exam](https://github
 
 ---
 
-## 🚀 Como executar com Docker
+## 🌍 Teste Online
+
+Você pode acessar e testar o simulador online agora mesmo, sem instalar nada:
+
+🔗 [https://lpi-010-160-exam.pages.dev](https://lpi-010-160-exam.pages.dev)
+
+---
+
+## 💻 Como executar localmente (usando NPM)
+
+> Requisitos: [Node.js](https://nodejs.org/) v18 ou superior
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/edvanflorio/lpi_010_160_exam.git
+cd lpi_010_160_exam/docs
+
+# 2. Instale as dependências
+npm install
+
+# 3. Execute em modo desenvolvimento
+npm run dev
+````
+
+Acesse o simulador em: [http://localhost:5173](http://localhost:5173)
+
+---
+
+### 🔧 Para gerar build de produção:
+
+```bash
+npm run build
+npx serve dist
+```
+
+---
+
+## 🐳 Como executar com Docker
 
 ```bash
 git clone https://github.com/edvanflorio/lpi_010_160_exam.git
 cd lpi_010_160_exam
 docker compose build 
 docker compose up -d
-````
+```
 
 Acesse o simulador em: [http://localhost:3000](http://localhost:3000)
 
@@ -80,5 +117,4 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
 
 * Projeto original: [Noam-Alum/lpi\_010\_160\_exam](https://github.com/Noam-Alum/lpi_010_160_exam)
 * Tradução, melhorias e dockerização: [Edvan Florio](https://github.com/edvanflorio)
-
 
